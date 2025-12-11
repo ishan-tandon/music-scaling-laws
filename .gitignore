@@ -1,0 +1,20 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# --- Data (NEVER commit these) ---
+data/
+*.mid
+*.abc
+*.jsonl
+
+# --- Model Checkpoints (Too heavy for git) ---
+checkpoints/
+*.pt
+*.pth
+out/
+
+# --- Docker/System ---
+.DS_Store
