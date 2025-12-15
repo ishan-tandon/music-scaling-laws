@@ -1,0 +1,17 @@
+# Data Processing
+music21>=9.0.0
+tqdm
+pandas
+numpy<2.0.0
+
+# Visualization
+matplotlib
+seaborn
+scipy
+
+# Development
+jupyterlab
+ipywidgets
+
+# Model/Training (PyTorch is already in the base image, but these helpers are useful)
+tiktoken  # OpenAI's fast tokenizer (useful for comparison)

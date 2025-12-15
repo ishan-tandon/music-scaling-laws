@@ -1,0 +1,1740 @@
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev bash src/run_refined.sh
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+================================================================
+      STARTING FULL SCALING EXPERIMENT (OPTIMIZED LRs)
+================================================================
+[1/5] Training TINY...
+Vocab size: 99
+number of parameters: 0.80M
+Starting training tiny...
+Config: Physical Batch=32, GradAccum=1, LR=0.0006
+
+[EVAL] step 0: train loss 4.5790, val loss 4.5614, mem 0.23GB
+
+step 0/3000 | loss 4.5175 | 10380.2ms | 3.2k tok/s
+step 10/3000 | loss 4.2903 | 609.8ms | 53.7k tok/s
+step 20/3000 | loss 3.7719 | 614.2ms | 53.3k tok/s
+step 30/3000 | loss 3.4813 | 650.7ms | 50.4k tok/s
+step 40/3000 | loss 3.0361 | 606.8ms | 54.0k tok/s
+step 50/3000 | loss 2.7627 | -753.1ms | -43.5k tok/s
+step 60/3000 | loss 2.6997 | 611.5ms | 53.6k tok/s
+step 70/3000 | loss 2.5267 | 608.0ms | 53.9k tok/s
+step 80/3000 | loss 2.0637 | 605.5ms | 54.1k tok/s
+step 90/3000 | loss 1.8331 | 610.0ms | 53.7k tok/s
+step 100/3000 | loss 1.7532 | 602.6ms | 54.4k tok/s
+step 110/3000 | loss 1.3776 | 606.1ms | 54.1k tok/s
+step 120/3000 | loss 1.2088 | 603.9ms | 54.3k tok/s
+step 130/3000 | loss 1.2489 | 609.5ms | 53.8k tok/s
+step 140/3000 | loss 1.2221 | 604.2ms | 54.2k tok/s
+step 150/3000 | loss 1.1161 | 601.7ms | 54.5k tok/s
+step 160/3000 | loss 1.2642 | 612.3ms | 53.5k tok/s
+step 170/3000 | loss 0.9164 | 611.9ms | 53.6k tok/s
+step 180/3000 | loss 0.8127 | 624.7ms | 52.5k tok/s
+step 190/3000 | loss 0.8793 | 627.9ms | 52.2k tok/s
+step 200/3000 | loss 0.6275 | 622.3ms | 52.7k tok/s
+step 210/3000 | loss 0.9274 | 618.8ms | 53.0k tok/s
+step 220/3000 | loss 0.8794 | 644.8ms | 50.8k tok/s
+step 230/3000 | loss 0.5526 | 647.3ms | 50.6k tok/s
+step 240/3000 | loss 0.7764 | 638.2ms | 51.3k tok/s
+
+[EVAL] step 250: train loss 0.7488, val loss 1.6228, mem 1.20GB
+
+step 250/3000 | loss 1.0051 | 9780.7ms | 3.4k tok/s
+step 260/3000 | loss 0.7396 | 633.0ms | 51.8k tok/s
+step 270/3000 | loss 0.7588 | 607.7ms | 53.9k tok/s
+step 280/3000 | loss 0.6920 | 608.7ms | 53.8k tok/s
+step 290/3000 | loss 0.7176 | 609.0ms | 53.8k tok/s
+step 300/3000 | loss 0.5224 | 610.4ms | 53.7k tok/s
+step 310/3000 | loss 0.6517 | 605.3ms | 54.1k tok/s
+step 320/3000 | loss 0.8038 | 607.4ms | 53.9k tok/s
+step 330/3000 | loss 0.4743 | 605.4ms | 54.1k tok/s
+step 340/3000 | loss 0.6376 | 615.5ms | 53.2k tok/s
+step 350/3000 | loss 0.7751 | 614.5ms | 53.3k tok/s
+step 360/3000 | loss 0.5126 | 607.6ms | 53.9k tok/s
+step 370/3000 | loss 0.4874 | 610.5ms | 53.7k tok/s
+step 380/3000 | loss 0.7381 | 359.4ms | 91.2k tok/s
+step 390/3000 | loss 0.5740 | -502.0ms | -65.3k tok/s
+step 400/3000 | loss 0.3604 | 610.2ms | 53.7k tok/s
+step 410/3000 | loss 0.5652 | 608.0ms | 53.9k tok/s
+step 420/3000 | loss 0.8030 | 608.9ms | 53.8k tok/s
+step 430/3000 | loss 0.6245 | 598.3ms | 54.8k tok/s
+step 440/3000 | loss 0.7063 | 605.2ms | 54.1k tok/s
+step 450/3000 | loss 0.6345 | 605.4ms | 54.1k tok/s
+step 460/3000 | loss 0.5480 | 607.4ms | 53.9k tok/s
+step 470/3000 | loss 0.6270 | 602.8ms | 54.4k tok/s
+step 480/3000 | loss 0.5138 | 601.1ms | 54.5k tok/s
+step 490/3000 | loss 0.8625 | 609.9ms | 53.7k tok/s
+
+[EVAL] step 500: train loss 0.6180, val loss 1.4586, mem 1.20GB
+
+step 500/3000 | loss 0.7046 | 9746.0ms | 3.4k tok/s
+step 510/3000 | loss 0.6035 | 651.4ms | 50.3k tok/s
+step 520/3000 | loss 0.5136 | 660.1ms | 49.6k tok/s
+step 530/3000 | loss 0.5904 | 647.2ms | 50.6k tok/s
+step 540/3000 | loss 0.4817 | 637.9ms | 51.4k tok/s
+step 550/3000 | loss 0.6072 | 645.6ms | 50.8k tok/s
+step 560/3000 | loss 0.5692 | 642.4ms | 51.0k tok/s
+step 570/3000 | loss 0.4869 | 652.7ms | 50.2k tok/s
+step 580/3000 | loss 0.5221 | 627.5ms | 52.2k tok/s
+step 590/3000 | loss 0.6323 | 595.5ms | 55.0k tok/s
+step 600/3000 | loss 0.6570 | 614.9ms | 53.3k tok/s
+step 610/3000 | loss 0.8690 | 625.9ms | 52.3k tok/s
+step 620/3000 | loss 0.7469 | 622.1ms | 52.7k tok/s
+step 630/3000 | loss 0.6357 | 628.2ms | 52.2k tok/s
+step 640/3000 | loss 0.6480 | 618.6ms | 53.0k tok/s
+step 650/3000 | loss 0.9731 | 627.4ms | 52.2k tok/s
+step 660/3000 | loss 0.8327 | 619.0ms | 52.9k tok/s
+step 670/3000 | loss 0.3798 | 627.1ms | 52.3k tok/s
+step 680/3000 | loss 0.5947 | 625.7ms | 52.4k tok/s
+step 690/3000 | loss 0.6111 | 619.3ms | 52.9k tok/s
+step 700/3000 | loss 0.6624 | 772.8ms | 42.4k tok/s
+step 710/3000 | loss 0.4760 | 780.4ms | 42.0k tok/s
+step 720/3000 | loss 0.7426 | -539.3ms | -60.8k tok/s
+step 730/3000 | loss 0.5216 | 839.3ms | 39.0k tok/s
+step 740/3000 | loss 0.6611 | 703.3ms | 46.6k tok/s
+
+[EVAL] step 750: train loss 0.5843, val loss 1.3694, mem 1.20GB
+
+step 750/3000 | loss 0.5279 | 10322.9ms | 3.2k tok/s
+step 760/3000 | loss 0.4428 | 774.4ms | 42.3k tok/s
+step 770/3000 | loss 0.5833 | 813.5ms | 40.3k tok/s
+step 780/3000 | loss 0.5560 | 646.0ms | 50.7k tok/s
+step 790/3000 | loss 0.5625 | 641.4ms | 51.1k tok/s
+step 800/3000 | loss 0.7118 | 660.6ms | 49.6k tok/s
+step 810/3000 | loss 0.5568 | 668.3ms | 49.0k tok/s
+step 820/3000 | loss 0.4276 | 688.4ms | 47.6k tok/s
+step 830/3000 | loss 0.6536 | 604.5ms | 54.2k tok/s
+step 840/3000 | loss 0.6746 | 617.7ms | 53.1k tok/s
+step 850/3000 | loss 0.5896 | 626.7ms | 52.3k tok/s
+step 860/3000 | loss 0.4132 | 616.4ms | 53.2k tok/s
+step 870/3000 | loss 0.6510 | 664.8ms | 49.3k tok/s
+step 880/3000 | loss 0.4519 | 666.4ms | 49.2k tok/s
+step 890/3000 | loss 0.4498 | 627.5ms | 52.2k tok/s
+step 900/3000 | loss 0.4936 | 633.3ms | 51.7k tok/s
+step 910/3000 | loss 0.4879 | 621.7ms | 52.7k tok/s
+step 920/3000 | loss 0.5407 | 630.9ms | 51.9k tok/s
+step 930/3000 | loss 0.6305 | 622.1ms | 52.7k tok/s
+step 940/3000 | loss 0.6991 | 629.8ms | 52.0k tok/s
+step 950/3000 | loss 0.4602 | 628.3ms | 52.2k tok/s
+step 960/3000 | loss 0.6439 | 629.3ms | 52.1k tok/s
+step 970/3000 | loss 0.6086 | 616.4ms | 53.2k tok/s
+step 980/3000 | loss 0.4617 | 618.8ms | 53.0k tok/s
+step 990/3000 | loss 0.5792 | 617.0ms | 53.1k tok/s
+
+[EVAL] step 1000: train loss 0.5351, val loss 1.3069, mem 1.20GB
+
+step 1000/3000 | loss 0.5393 | 8307.1ms | 3.9k tok/s
+step 1010/3000 | loss 0.4933 | 631.4ms | 51.9k tok/s
+step 1020/3000 | loss 0.4484 | 631.6ms | 51.9k tok/s
+step 1030/3000 | loss 0.4706 | 631.8ms | 51.9k tok/s
+step 1040/3000 | loss 0.6042 | 628.3ms | 52.2k tok/s
+step 1050/3000 | loss 0.5782 | 635.3ms | 51.6k tok/s
+step 1060/3000 | loss 0.6413 | 624.3ms | 52.5k tok/s
+step 1070/3000 | loss 0.4410 | 629.9ms | 52.0k tok/s
+step 1080/3000 | loss 0.4235 | 630.9ms | 51.9k tok/s
+step 1090/3000 | loss 0.6265 | 630.0ms | 52.0k tok/s
+step 1100/3000 | loss 0.3944 | 630.0ms | 52.0k tok/s
+step 1110/3000 | loss 0.6164 | 642.7ms | 51.0k tok/s
+step 1120/3000 | loss 0.3251 | 643.3ms | 50.9k tok/s
+step 1130/3000 | loss 0.6744 | 638.7ms | 51.3k tok/s
+step 1140/3000 | loss 0.5901 | 643.3ms | 50.9k tok/s
+step 1150/3000 | loss 0.6554 | 647.4ms | 50.6k tok/s
+step 1160/3000 | loss 0.5778 | 645.9ms | 50.7k tok/s
+step 1170/3000 | loss 0.6104 | 633.8ms | 51.7k tok/s
+step 1180/3000 | loss 0.5142 | 634.9ms | 51.6k tok/s
+step 1190/3000 | loss 0.4584 | 647.9ms | 50.6k tok/s
+step 1200/3000 | loss 0.6473 | 636.6ms | 51.5k tok/s
+step 1210/3000 | loss 0.5674 | 604.7ms | 54.2k tok/s
+step 1220/3000 | loss 0.4161 | 598.7ms | 54.7k tok/s
+step 1230/3000 | loss 0.3861 | 607.8ms | 53.9k tok/s
+step 1240/3000 | loss 0.3863 | 631.5ms | 51.9k tok/s
+
+[EVAL] step 1250: train loss 0.4865, val loss 1.2660, mem 1.20GB
+
+step 1250/3000 | loss 0.4267 | 8298.7ms | 3.9k tok/s
+step 1260/3000 | loss 0.6083 | 613.7ms | 53.4k tok/s
+step 1270/3000 | loss 0.4518 | 608.8ms | 53.8k tok/s
+step 1280/3000 | loss 0.5332 | 614.6ms | 53.3k tok/s
+step 1290/3000 | loss 0.6832 | 615.5ms | 53.2k tok/s
+step 1300/3000 | loss 0.4543 | 625.3ms | 52.4k tok/s
+step 1310/3000 | loss 0.5979 | 619.7ms | 52.9k tok/s
+step 1320/3000 | loss 0.4825 | 608.3ms | 53.9k tok/s
+step 1330/3000 | loss 0.4153 | 611.4ms | 53.6k tok/s
+step 1340/3000 | loss 0.3565 | 616.6ms | 53.1k tok/s
+step 1350/3000 | loss 0.5072 | 605.9ms | 54.1k tok/s
+step 1360/3000 | loss 0.3384 | 609.1ms | 53.8k tok/s
+step 1370/3000 | loss 0.5000 | 633.0ms | 51.8k tok/s
+step 1380/3000 | loss 0.4617 | 633.5ms | 51.7k tok/s
+step 1390/3000 | loss 0.5877 | 639.6ms | 51.2k tok/s
+step 1400/3000 | loss 0.4132 | 635.1ms | 51.6k tok/s
+step 1410/3000 | loss 0.3852 | 636.7ms | 51.5k tok/s
+step 1420/3000 | loss 0.5054 | 640.1ms | 51.2k tok/s
+step 1430/3000 | loss 0.3145 | 653.6ms | 50.1k tok/s
+step 1440/3000 | loss 0.5630 | 637.3ms | 51.4k tok/s
+step 1450/3000 | loss 0.3087 | 630.9ms | 51.9k tok/s
+step 1460/3000 | loss 0.5520 | 625.9ms | 52.4k tok/s
+step 1470/3000 | loss 0.3768 | 637.4ms | 51.4k tok/s
+step 1480/3000 | loss 0.5461 | 595.3ms | 55.0k tok/s
+step 1490/3000 | loss 0.4611 | 593.3ms | 55.2k tok/s
+
+[EVAL] step 1500: train loss 0.4132, val loss 1.1794, mem 1.20GB
+
+step 1500/3000 | loss 0.3147 | 9669.3ms | 3.4k tok/s
+step 1510/3000 | loss 0.2939 | 639.9ms | 51.2k tok/s
+step 1520/3000 | loss 0.3700 | 635.8ms | 51.5k tok/s
+step 1530/3000 | loss 0.3545 | 630.9ms | 51.9k tok/s
+step 1540/3000 | loss 0.4443 | 634.8ms | 51.6k tok/s
+step 1550/3000 | loss 0.3864 | -718.3ms | -45.6k tok/s
+step 1560/3000 | loss 0.4068 | 622.4ms | 52.6k tok/s
+step 1570/3000 | loss 0.4918 | 626.1ms | 52.3k tok/s
+step 1580/3000 | loss 0.3406 | 622.4ms | 52.6k tok/s
+step 1590/3000 | loss 0.4228 | 625.6ms | 52.4k tok/s
+step 1600/3000 | loss 0.4974 | 621.6ms | 52.7k tok/s
+step 1610/3000 | loss 0.2402 | 630.9ms | 51.9k tok/s
+step 1620/3000 | loss 0.4595 | 623.3ms | 52.6k tok/s
+step 1630/3000 | loss 0.4413 | 602.2ms | 54.4k tok/s
+step 1640/3000 | loss 0.4159 | 612.8ms | 53.5k tok/s
+step 1650/3000 | loss 0.4020 | 622.4ms | 52.6k tok/s
+step 1660/3000 | loss 0.4714 | 624.0ms | 52.5k tok/s
+step 1670/3000 | loss 0.3591 | 625.0ms | 52.4k tok/s
+step 1680/3000 | loss 0.4222 | 618.7ms | 53.0k tok/s
+step 1690/3000 | loss 0.3372 | 628.4ms | 52.1k tok/s
+step 1700/3000 | loss 0.2760 | 622.7ms | 52.6k tok/s
+step 1710/3000 | loss 0.4049 | 636.4ms | 51.5k tok/s
+step 1720/3000 | loss 0.3889 | 629.5ms | 52.1k tok/s
+step 1730/3000 | loss 0.3758 | 625.7ms | 52.4k tok/s
+step 1740/3000 | loss 0.2823 | 626.9ms | 52.3k tok/s
+
+[EVAL] step 1750: train loss 0.3657, val loss 1.0856, mem 1.20GB
+
+step 1750/3000 | loss 0.3644 | 9727.7ms | 3.4k tok/s
+step 1760/3000 | loss 0.3874 | 616.7ms | 53.1k tok/s
+step 1770/3000 | loss 0.2694 | 608.8ms | 53.8k tok/s
+step 1780/3000 | loss 0.3354 | 622.4ms | 52.6k tok/s
+step 1790/3000 | loss 0.4215 | 618.3ms | 53.0k tok/s
+step 1800/3000 | loss 0.4337 | 625.4ms | 52.4k tok/s
+step 1810/3000 | loss 0.2465 | 618.4ms | 53.0k tok/s
+step 1820/3000 | loss 0.4615 | 615.8ms | 53.2k tok/s
+step 1830/3000 | loss 0.3151 | 618.6ms | 53.0k tok/s
+step 1840/3000 | loss 0.3419 | 617.6ms | 53.1k tok/s
+step 1850/3000 | loss 0.4859 | 615.0ms | 53.3k tok/s
+step 1860/3000 | loss 0.4924 | 618.5ms | 53.0k tok/s
+step 1870/3000 | loss 0.3120 | 600.3ms | 54.6k tok/s
+step 1880/3000 | loss 0.2142 | -830.4ms | -39.5k tok/s
+step 1890/3000 | loss 0.3308 | 596.5ms | 54.9k tok/s
+step 1900/3000 | loss 0.2787 | 599.6ms | 54.6k tok/s
+step 1910/3000 | loss 0.2076 | 618.8ms | 53.0k tok/s
+step 1920/3000 | loss 0.4701 | 626.0ms | 52.3k tok/s
+step 1930/3000 | loss 0.4156 | 630.9ms | 51.9k tok/s
+step 1940/3000 | loss 0.2488 | 626.8ms | 52.3k tok/s
+step 1950/3000 | loss 0.4482 | 624.4ms | 52.5k tok/s
+step 1960/3000 | loss 0.4861 | 624.7ms | 52.5k tok/s
+step 1970/3000 | loss 0.3535 | 625.5ms | 52.4k tok/s
+step 1980/3000 | loss 0.3034 | 623.3ms | 52.6k tok/s
+step 1990/3000 | loss 0.4271 | 628.7ms | 52.1k tok/s
+
+[EVAL] step 2000: train loss 0.3453, val loss 1.0403, mem 1.20GB
+
+step 2000/3000 | loss 0.3991 | 9912.3ms | 3.3k tok/s
+step 2010/3000 | loss 0.3709 | 616.9ms | 53.1k tok/s
+step 2020/3000 | loss 0.2081 | 602.1ms | 54.4k tok/s
+step 2030/3000 | loss 0.3334 | 640.7ms | 51.1k tok/s
+step 2040/3000 | loss 0.3644 | 641.3ms | 51.1k tok/s
+step 2050/3000 | loss 0.2287 | 633.6ms | 51.7k tok/s
+step 2060/3000 | loss 0.2749 | 637.2ms | 51.4k tok/s
+step 2070/3000 | loss 0.4357 | 639.0ms | 51.3k tok/s
+step 2080/3000 | loss 0.3075 | 642.3ms | 51.0k tok/s
+step 2090/3000 | loss 0.2980 | 640.7ms | 51.1k tok/s
+step 2100/3000 | loss 0.2719 | 641.2ms | 51.1k tok/s
+step 2110/3000 | loss 0.2739 | 635.3ms | 51.6k tok/s
+step 2120/3000 | loss 0.3364 | 622.6ms | 52.6k tok/s
+step 2130/3000 | loss 0.3728 | 605.9ms | 54.1k tok/s
+step 2140/3000 | loss 0.3520 | 594.6ms | 55.1k tok/s
+step 2150/3000 | loss 0.2567 | 599.8ms | 54.6k tok/s
+step 2160/3000 | loss 0.4325 | 629.2ms | 52.1k tok/s
+step 2170/3000 | loss 0.2068 | 630.9ms | 51.9k tok/s
+step 2180/3000 | loss 0.4697 | 633.1ms | 51.8k tok/s
+step 2190/3000 | loss 0.4272 | 630.0ms | 52.0k tok/s
+step 2200/3000 | loss 0.3920 | 629.9ms | 52.0k tok/s
+step 2210/3000 | loss 0.3122 | 634.0ms | 51.7k tok/s
+step 2220/3000 | loss 0.2386 | -848.3ms | -38.6k tok/s
+step 2230/3000 | loss 0.3347 | 618.0ms | 53.0k tok/s
+step 2240/3000 | loss 0.4498 | 622.0ms | 52.7k tok/s
+
+[EVAL] step 2250: train loss 0.3188, val loss 0.9869, mem 1.20GB
+
+step 2250/3000 | loss 0.3882 | 9662.5ms | 3.4k tok/s
+step 2260/3000 | loss 0.3971 | 629.5ms | 52.1k tok/s
+step 2270/3000 | loss 0.3788 | 590.5ms | 55.5k tok/s
+step 2280/3000 | loss 0.3759 | 589.4ms | 55.6k tok/s
+step 2290/3000 | loss 0.2356 | 589.8ms | 55.6k tok/s
+step 2300/3000 | loss 0.2918 | 612.2ms | 53.5k tok/s
+step 2310/3000 | loss 0.4185 | 639.7ms | 51.2k tok/s
+step 2320/3000 | loss 0.3493 | 640.4ms | 51.2k tok/s
+step 2330/3000 | loss 0.2652 | 637.2ms | 51.4k tok/s
+step 2340/3000 | loss 0.3174 | 637.0ms | 51.4k tok/s
+step 2350/3000 | loss 0.2604 | 643.9ms | 50.9k tok/s
+step 2360/3000 | loss 0.2859 | 633.4ms | 51.7k tok/s
+step 2370/3000 | loss 0.3168 | 637.4ms | 51.4k tok/s
+step 2380/3000 | loss 0.3166 | 634.1ms | 51.7k tok/s
+step 2390/3000 | loss 0.2638 | 596.5ms | 54.9k tok/s
+step 2400/3000 | loss 0.1964 | 603.1ms | 54.3k tok/s
+step 2410/3000 | loss 0.4617 | 597.5ms | 54.8k tok/s
+step 2420/3000 | loss 0.2187 | 603.8ms | 54.3k tok/s
+step 2430/3000 | loss 0.3250 | 618.5ms | 53.0k tok/s
+step 2440/3000 | loss 0.2758 | 640.6ms | 51.1k tok/s
+step 2450/3000 | loss 0.1586 | 637.6ms | 51.4k tok/s
+step 2460/3000 | loss 0.4165 | 632.6ms | 51.8k tok/s
+step 2470/3000 | loss 0.3045 | 629.9ms | 52.0k tok/s
+step 2480/3000 | loss 0.3422 | 635.4ms | 51.6k tok/s
+step 2490/3000 | loss 0.1809 | 634.3ms | 51.7k tok/s
+
+[EVAL] step 2500: train loss 0.3065, val loss 0.9532, mem 1.20GB
+
+step 2500/3000 | loss 0.3657 | 8134.3ms | 4.0k tok/s
+step 2510/3000 | loss 0.2541 | 631.7ms | 51.9k tok/s
+step 2520/3000 | loss 0.2794 | 621.0ms | 52.8k tok/s
+step 2530/3000 | loss 0.3877 | 625.2ms | 52.4k tok/s
+step 2540/3000 | loss 0.3228 | 622.3ms | 52.7k tok/s
+step 2550/3000 | loss 0.2365 | 621.3ms | 52.7k tok/s
+step 2560/3000 | loss 0.3179 | 611.9ms | 53.5k tok/s
+step 2570/3000 | loss 0.2981 | 624.4ms | 52.5k tok/s
+step 2580/3000 | loss 0.3017 | 647.2ms | 50.6k tok/s
+step 2590/3000 | loss 0.4252 | 643.1ms | 50.9k tok/s
+step 2600/3000 | loss 0.3211 | 649.7ms | 50.4k tok/s
+step 2610/3000 | loss 0.4616 | 660.2ms | 49.6k tok/s
+step 2620/3000 | loss 0.2573 | 645.0ms | 50.8k tok/s
+step 2630/3000 | loss 0.3401 | 644.4ms | 50.9k tok/s
+step 2640/3000 | loss 0.2785 | 646.7ms | 50.7k tok/s
+step 2650/3000 | loss 0.2543 | 652.3ms | 50.2k tok/s
+step 2660/3000 | loss 0.4855 | 658.3ms | 49.8k tok/s
+step 2670/3000 | loss 0.2058 | 604.4ms | 54.2k tok/s
+step 2680/3000 | loss 0.3449 | 600.5ms | 54.6k tok/s
+step 2690/3000 | loss 0.2858 | 592.9ms | 55.3k tok/s
+step 2700/3000 | loss 0.4118 | 630.5ms | 52.0k tok/s
+step 2710/3000 | loss 0.3233 | 659.5ms | 49.7k tok/s
+step 2720/3000 | loss 0.4260 | 641.5ms | 51.1k tok/s
+step 2730/3000 | loss 0.3074 | 650.2ms | 50.4k tok/s
+step 2740/3000 | loss 0.3522 | 646.1ms | 50.7k tok/s
+
+[EVAL] step 2750: train loss 0.3024, val loss 0.9292, mem 1.20GB
+
+step 2750/3000 | loss 0.1910 | 8268.6ms | 4.0k tok/s
+step 2760/3000 | loss 0.2656 | 636.6ms | 51.5k tok/s
+step 2770/3000 | loss 0.4519 | 644.5ms | 50.8k tok/s
+step 2780/3000 | loss 0.2752 | 634.3ms | 51.7k tok/s
+step 2790/3000 | loss 0.2148 | 609.3ms | 53.8k tok/s
+step 2800/3000 | loss 0.3300 | 598.4ms | 54.8k tok/s
+step 2810/3000 | loss 0.4446 | 600.4ms | 54.6k tok/s
+step 2820/3000 | loss 0.2457 | 600.6ms | 54.6k tok/s
+step 2830/3000 | loss 0.2926 | 606.5ms | 54.0k tok/s
+step 2840/3000 | loss 0.1912 | 618.7ms | 53.0k tok/s
+step 2850/3000 | loss 0.3234 | 648.7ms | 50.5k tok/s
+step 2860/3000 | loss 0.3763 | 647.3ms | 50.6k tok/s
+step 2870/3000 | loss 0.3122 | 660.8ms | 49.6k tok/s
+step 2880/3000 | loss 0.4701 | 640.6ms | 51.2k tok/s
+step 2890/3000 | loss 0.4448 | 650.4ms | 50.4k tok/s
+step 2900/3000 | loss 0.2410 | 651.6ms | 50.3k tok/s
+step 2910/3000 | loss 0.3025 | 648.7ms | 50.5k tok/s
+step 2920/3000 | loss 0.2048 | 653.7ms | 50.1k tok/s
+step 2930/3000 | loss 0.2388 | 645.4ms | 50.8k tok/s
+step 2940/3000 | loss 0.3589 | 619.4ms | 52.9k tok/s
+step 2950/3000 | loss 0.3792 | 600.5ms | 54.6k tok/s
+step 2960/3000 | loss 0.2785 | 602.7ms | 54.4k tok/s
+step 2970/3000 | loss 0.2032 | 626.9ms | 52.3k tok/s
+step 2980/3000 | loss 0.1445 | 647.0ms | 50.6k tok/s
+step 2990/3000 | loss 0.3373 | 648.7ms | 50.5k tok/s
+Running final evaluation...
+
+[EVAL] step 3000: train loss 0.2900, val loss 0.9195, mem 1.20GB
+
+Training finished. Best Val Loss: 0.9195
+
+[2/5] Training SMALL...
+Vocab size: 99
+number of parameters: 6.00M
+Starting training small...
+Config: Physical Batch=32, GradAccum=1, LR=0.0006
+
+[EVAL] step 0: train loss 4.5790, val loss 4.5076, mem 0.50GB
+
+step 0/3000 | loss 4.5905 | 25773.9ms | 1.3k tok/s
+step 10/3000 | loss 3.4984 | 2350.1ms | 13.9k tok/s
+step 20/3000 | loss 2.3848 | 2348.3ms | 14.0k tok/s
+step 30/3000 | loss 2.0850 | 932.8ms | 35.1k tok/s
+step 40/3000 | loss 1.7504 | 2438.4ms | 13.4k tok/s
+step 50/3000 | loss 1.2242 | 2003.9ms | 16.4k tok/s
+step 60/3000 | loss 1.3566 | 2176.0ms | 15.1k tok/s
+step 70/3000 | loss 1.0118 | 2102.3ms | 15.6k tok/s
+step 80/3000 | loss 0.8127 | 2028.6ms | 16.2k tok/s
+step 90/3000 | loss 1.0118 | 1996.5ms | 16.4k tok/s
+step 100/3000 | loss 0.6593 | 2039.6ms | 16.1k tok/s
+step 110/3000 | loss 0.7031 | 2054.6ms | 15.9k tok/s
+step 120/3000 | loss 0.6761 | 1992.4ms | 16.4k tok/s
+step 130/3000 | loss 0.7257 | 1953.3ms | 16.8k tok/s
+step 140/3000 | loss 0.7031 | 1949.5ms | 16.8k tok/s
+step 150/3000 | loss 0.6779 | 1935.2ms | 16.9k tok/s
+step 160/3000 | loss 0.5237 | 1961.7ms | 16.7k tok/s
+step 170/3000 | loss 0.6571 | 126.6ms | 258.9k tok/s
+step 180/3000 | loss 0.6684 | 1958.5ms | 16.7k tok/s
+step 190/3000 | loss 0.5988 | 1878.1ms | 17.4k tok/s
+step 200/3000 | loss 0.8691 | 1898.3ms | 17.3k tok/s
+step 210/3000 | loss 0.6684 | 1897.6ms | 17.3k tok/s
+step 220/3000 | loss 0.6531 | 1954.4ms | 16.8k tok/s
+step 230/3000 | loss 0.5216 | 1972.0ms | 16.6k tok/s
+step 240/3000 | loss 0.5665 | 1965.6ms | 16.7k tok/s
+
+[EVAL] step 250: train loss 0.6904, val loss 1.5687, mem 3.93GB
+
+step 250/3000 | loss 0.6613 | 25806.4ms | 1.3k tok/s
+step 260/3000 | loss 0.6779 | 1963.9ms | 16.7k tok/s
+step 270/3000 | loss 0.5597 | 1940.6ms | 16.9k tok/s
+step 280/3000 | loss 0.7266 | 1955.6ms | 16.8k tok/s
+step 290/3000 | loss 0.4852 | 1948.6ms | 16.8k tok/s
+step 300/3000 | loss 0.5284 | 1959.4ms | 16.7k tok/s
+step 310/3000 | loss 0.3621 | 1940.1ms | 16.9k tok/s
+step 320/3000 | loss 0.5362 | 1946.2ms | 16.8k tok/s
+step 330/3000 | loss 0.6149 | 1951.8ms | 16.8k tok/s
+step 340/3000 | loss 0.7596 | 1934.4ms | 16.9k tok/s
+step 350/3000 | loss 0.3644 | 556.7ms | 58.9k tok/s
+step 360/3000 | loss 0.6581 | 1948.6ms | 16.8k tok/s
+step 370/3000 | loss 0.6318 | 1939.0ms | 16.9k tok/s
+step 380/3000 | loss 0.4972 | 1956.7ms | 16.7k tok/s
+step 390/3000 | loss 0.6637 | 1962.5ms | 16.7k tok/s
+step 400/3000 | loss 0.6334 | 1971.6ms | 16.6k tok/s
+step 410/3000 | loss 0.4958 | 1949.8ms | 16.8k tok/s
+step 420/3000 | loss 0.7204 | 1955.2ms | 16.8k tok/s
+step 430/3000 | loss 0.5082 | 1968.5ms | 16.6k tok/s
+step 440/3000 | loss 0.5709 | 1953.8ms | 16.8k tok/s
+step 450/3000 | loss 0.5966 | 1963.1ms | 16.7k tok/s
+step 460/3000 | loss 0.5732 | 1958.9ms | 16.7k tok/s
+step 470/3000 | loss 0.5803 | 1971.8ms | 16.6k tok/s
+step 480/3000 | loss 0.5738 | 1950.9ms | 16.8k tok/s
+step 490/3000 | loss 0.7145 | 1944.8ms | 16.8k tok/s
+
+[EVAL] step 500: train loss 0.6162, val loss 1.4585, mem 3.93GB
+
+step 500/3000 | loss 0.6609 | 25640.1ms | 1.3k tok/s
+step 510/3000 | loss 0.6362 | 1974.0ms | 16.6k tok/s
+step 520/3000 | loss 0.6924 | 1971.5ms | 16.6k tok/s
+step 530/3000 | loss 0.7496 | 470.0ms | 69.7k tok/s
+step 540/3000 | loss 0.5106 | 1961.7ms | 16.7k tok/s
+step 550/3000 | loss 0.6450 | 1962.4ms | 16.7k tok/s
+step 560/3000 | loss 0.5009 | 1953.9ms | 16.8k tok/s
+step 570/3000 | loss 0.5344 | 1945.4ms | 16.8k tok/s
+step 580/3000 | loss 0.6572 | 1973.8ms | 16.6k tok/s
+step 590/3000 | loss 0.3864 | 1981.7ms | 16.5k tok/s
+step 600/3000 | loss 0.6949 | 1960.2ms | 16.7k tok/s
+step 610/3000 | loss 0.4872 | 1977.3ms | 16.6k tok/s
+step 620/3000 | loss 0.5334 | 1956.8ms | 16.7k tok/s
+step 630/3000 | loss 0.4334 | 1958.0ms | 16.7k tok/s
+step 640/3000 | loss 0.6564 | 1960.8ms | 16.7k tok/s
+step 650/3000 | loss 0.6061 | 1969.6ms | 16.6k tok/s
+step 660/3000 | loss 0.5902 | 1975.6ms | 16.6k tok/s
+step 670/3000 | loss 0.6288 | 1970.0ms | 16.6k tok/s
+step 680/3000 | loss 0.4775 | 487.2ms | 67.3k tok/s
+step 690/3000 | loss 0.6964 | 1962.5ms | 16.7k tok/s
+step 700/3000 | loss 0.4589 | 1945.3ms | 16.8k tok/s
+step 710/3000 | loss 0.4186 | 1966.1ms | 16.7k tok/s
+step 720/3000 | loss 0.6424 | 1952.2ms | 16.8k tok/s
+step 730/3000 | loss 0.5250 | 1971.0ms | 16.6k tok/s
+step 740/3000 | loss 0.5910 | 1943.2ms | 16.9k tok/s
+
+[EVAL] step 750: train loss 0.5204, val loss 1.2745, mem 3.93GB
+
+step 750/3000 | loss 0.6333 | 25646.2ms | 1.3k tok/s
+step 760/3000 | loss 0.4107 | 1978.6ms | 16.6k tok/s
+step 770/3000 | loss 0.5377 | 2039.3ms | 16.1k tok/s
+step 780/3000 | loss 0.4533 | 2017.7ms | 16.2k tok/s
+step 790/3000 | loss 0.4939 | 2021.1ms | 16.2k tok/s
+step 800/3000 | loss 0.3600 | 2036.1ms | 16.1k tok/s
+step 810/3000 | loss 0.6767 | 1964.0ms | 16.7k tok/s
+step 820/3000 | loss 0.5178 | 1967.6ms | 16.7k tok/s
+step 830/3000 | loss 0.3225 | 1958.4ms | 16.7k tok/s
+step 840/3000 | loss 0.4019 | 1964.3ms | 16.7k tok/s
+step 850/3000 | loss 0.5785 | 1979.9ms | 16.6k tok/s
+step 860/3000 | loss 0.5011 | 229.9ms | 142.5k tok/s
+step 870/3000 | loss 0.4346 | 1959.8ms | 16.7k tok/s
+step 880/3000 | loss 0.3937 | 1965.1ms | 16.7k tok/s
+step 890/3000 | loss 0.5109 | 1952.3ms | 16.8k tok/s
+step 900/3000 | loss 0.2015 | 1952.4ms | 16.8k tok/s
+step 910/3000 | loss 0.4703 | 1970.2ms | 16.6k tok/s
+step 920/3000 | loss 0.4832 | 1965.6ms | 16.7k tok/s
+step 930/3000 | loss 0.4406 | 1961.4ms | 16.7k tok/s
+step 940/3000 | loss 0.5066 | 1963.6ms | 16.7k tok/s
+step 950/3000 | loss 0.4266 | 1957.5ms | 16.7k tok/s
+step 960/3000 | loss 0.3636 | 1969.5ms | 16.6k tok/s
+step 970/3000 | loss 0.3492 | 1976.0ms | 16.6k tok/s
+step 980/3000 | loss 0.3751 | 1972.6ms | 16.6k tok/s
+step 990/3000 | loss 0.5586 | 1969.1ms | 16.6k tok/s
+
+[EVAL] step 1000: train loss 0.3876, val loss 1.1208, mem 3.93GB
+
+step 1000/3000 | loss 0.4243 | 25528.3ms | 1.3k tok/s
+step 1010/3000 | loss 0.3545 | 1983.5ms | 16.5k tok/s
+step 1020/3000 | loss 0.3165 | 1987.7ms | 16.5k tok/s
+step 1030/3000 | loss 0.3381 | 1977.3ms | 16.6k tok/s
+step 1040/3000 | loss 0.4456 | 389.0ms | 84.2k tok/s
+step 1050/3000 | loss 0.3267 | 1946.2ms | 16.8k tok/s
+step 1060/3000 | loss 0.3126 | 1971.4ms | 16.6k tok/s
+step 1070/3000 | loss 0.3379 | 1972.2ms | 16.6k tok/s
+step 1080/3000 | loss 0.3250 | 1974.9ms | 16.6k tok/s
+step 1090/3000 | loss 0.2885 | 1977.1ms | 16.6k tok/s
+step 1100/3000 | loss 0.3385 | 2002.0ms | 16.4k tok/s
+step 1110/3000 | loss 0.3455 | 1978.1ms | 16.6k tok/s
+step 1120/3000 | loss 0.3439 | 1979.0ms | 16.6k tok/s
+step 1130/3000 | loss 0.3460 | 1985.3ms | 16.5k tok/s
+step 1140/3000 | loss 0.3464 | 1989.7ms | 16.5k tok/s
+step 1150/3000 | loss 0.3064 | 1976.3ms | 16.6k tok/s
+step 1160/3000 | loss 0.2602 | 1963.1ms | 16.7k tok/s
+step 1170/3000 | loss 0.4465 | 1964.4ms | 16.7k tok/s
+step 1180/3000 | loss 0.2610 | 1960.0ms | 16.7k tok/s
+step 1190/3000 | loss 0.3693 | 299.2ms | 109.5k tok/s
+step 1200/3000 | loss 0.3690 | 1957.9ms | 16.7k tok/s
+step 1210/3000 | loss 0.3391 | 1953.7ms | 16.8k tok/s
+step 1220/3000 | loss 0.3869 | 1956.8ms | 16.7k tok/s
+step 1230/3000 | loss 0.3202 | 1952.5ms | 16.8k tok/s
+step 1240/3000 | loss 0.3340 | 1971.1ms | 16.6k tok/s
+
+[EVAL] step 1250: train loss 0.3356, val loss 1.0035, mem 3.93GB
+
+step 1250/3000 | loss 0.2911 | 25663.1ms | 1.3k tok/s
+step 1260/3000 | loss 0.2742 | 2025.5ms | 16.2k tok/s
+step 1270/3000 | loss 0.3286 | 2005.0ms | 16.3k tok/s
+step 1280/3000 | loss 0.2457 | 2009.6ms | 16.3k tok/s
+step 1290/3000 | loss 0.2834 | 2003.8ms | 16.4k tok/s
+step 1300/3000 | loss 0.3230 | 1979.2ms | 16.6k tok/s
+step 1310/3000 | loss 0.2980 | 1972.5ms | 16.6k tok/s
+step 1320/3000 | loss 0.3704 | 1995.9ms | 16.4k tok/s
+step 1330/3000 | loss 0.2267 | 1988.0ms | 16.5k tok/s
+step 1340/3000 | loss 0.3556 | 1972.6ms | 16.6k tok/s
+step 1350/3000 | loss 0.3805 | 1970.4ms | 16.6k tok/s
+step 1360/3000 | loss 0.2002 | 296.5ms | 110.5k tok/s
+step 1370/3000 | loss 0.2287 | 1963.0ms | 16.7k tok/s
+step 1380/3000 | loss 0.2627 | 1955.1ms | 16.8k tok/s
+step 1390/3000 | loss 0.3154 | 1967.1ms | 16.7k tok/s
+step 1400/3000 | loss 0.2978 | 1986.2ms | 16.5k tok/s
+step 1410/3000 | loss 0.2099 | 1989.8ms | 16.5k tok/s
+step 1420/3000 | loss 0.2142 | 1971.2ms | 16.6k tok/s
+step 1430/3000 | loss 0.3823 | 2004.7ms | 16.3k tok/s
+step 1440/3000 | loss 0.2171 | 2001.3ms | 16.4k tok/s
+step 1450/3000 | loss 0.2537 | 1974.0ms | 16.6k tok/s
+step 1460/3000 | loss 0.3467 | 1978.0ms | 16.6k tok/s
+step 1470/3000 | loss 0.2927 | 1999.2ms | 16.4k tok/s
+step 1480/3000 | loss 0.3770 | 1983.0ms | 16.5k tok/s
+step 1490/3000 | loss 0.2207 | 1971.3ms | 16.6k tok/s
+
+[EVAL] step 1500: train loss 0.3003, val loss 0.8999, mem 3.93GB
+
+step 1500/3000 | loss 0.3404 | 25736.5ms | 1.3k tok/s
+step 1510/3000 | loss 0.1694 | 1973.5ms | 16.6k tok/s
+step 1520/3000 | loss 0.5418 | 1970.9ms | 16.6k tok/s
+step 1530/3000 | loss 0.2277 | 1966.9ms | 16.7k tok/s
+step 1540/3000 | loss 0.3889 | 403.0ms | 81.3k tok/s
+step 1550/3000 | loss 0.2991 | 1952.5ms | 16.8k tok/s
+step 1560/3000 | loss 0.2194 | 1962.8ms | 16.7k tok/s
+step 1570/3000 | loss 0.2186 | 1959.5ms | 16.7k tok/s
+step 1580/3000 | loss 0.2468 | 1945.0ms | 16.8k tok/s
+step 1590/3000 | loss 0.2303 | 1967.0ms | 16.7k tok/s
+step 1600/3000 | loss 0.2220 | 1966.5ms | 16.7k tok/s
+step 1610/3000 | loss 0.1923 | 1975.9ms | 16.6k tok/s
+step 1620/3000 | loss 0.2328 | 1984.2ms | 16.5k tok/s
+step 1630/3000 | loss 0.2422 | 1977.6ms | 16.6k tok/s
+step 1640/3000 | loss 0.2130 | 1979.3ms | 16.6k tok/s
+step 1650/3000 | loss 0.3221 | 1978.5ms | 16.6k tok/s
+step 1660/3000 | loss 0.1849 | 1971.4ms | 16.6k tok/s
+step 1670/3000 | loss 0.1488 | 1990.4ms | 16.5k tok/s
+step 1680/3000 | loss 0.2936 | 1974.4ms | 16.6k tok/s
+step 1690/3000 | loss 0.2377 | 418.5ms | 78.3k tok/s
+step 1700/3000 | loss 0.2461 | 1983.1ms | 16.5k tok/s
+step 1710/3000 | loss 0.2539 | 1969.6ms | 16.6k tok/s
+step 1720/3000 | loss 0.1402 | 1970.1ms | 16.6k tok/s
+step 1730/3000 | loss 0.2806 | 1958.3ms | 16.7k tok/s
+step 1740/3000 | loss 0.2556 | 1994.9ms | 16.4k tok/s
+
+[EVAL] step 1750: train loss 0.2599, val loss 0.8209, mem 3.93GB
+
+step 1750/3000 | loss 0.2608 | 25803.4ms | 1.3k tok/s
+step 1760/3000 | loss 0.2988 | 1968.3ms | 16.6k tok/s
+step 1770/3000 | loss 0.2240 | 1975.0ms | 16.6k tok/s
+step 1780/3000 | loss 0.2740 | 1959.9ms | 16.7k tok/s
+step 1790/3000 | loss 0.2820 | 1969.0ms | 16.6k tok/s
+step 1800/3000 | loss 0.3788 | 1943.5ms | 16.9k tok/s
+step 1810/3000 | loss 0.2908 | 1962.5ms | 16.7k tok/s
+step 1820/3000 | loss 0.2307 | 1958.5ms | 16.7k tok/s
+step 1830/3000 | loss 0.1710 | 1954.3ms | 16.8k tok/s
+step 1840/3000 | loss 0.3458 | 1954.8ms | 16.8k tok/s
+step 1850/3000 | loss 0.2704 | 1950.6ms | 16.8k tok/s
+step 1860/3000 | loss 0.3653 | 1967.6ms | 16.7k tok/s
+step 1870/3000 | loss 0.3072 | 380.6ms | 86.1k tok/s
+step 1880/3000 | loss 0.2526 | 1961.2ms | 16.7k tok/s
+step 1890/3000 | loss 0.3901 | 1958.4ms | 16.7k tok/s
+step 1900/3000 | loss 0.2062 | 1957.4ms | 16.7k tok/s
+step 1910/3000 | loss 0.3241 | 1955.8ms | 16.8k tok/s
+step 1920/3000 | loss 0.3907 | 1947.5ms | 16.8k tok/s
+step 1930/3000 | loss 0.2358 | 1966.3ms | 16.7k tok/s
+step 1940/3000 | loss 0.3962 | 1976.3ms | 16.6k tok/s
+step 1950/3000 | loss 0.2596 | 1963.9ms | 16.7k tok/s
+step 1960/3000 | loss 0.3126 | 1964.6ms | 16.7k tok/s
+step 1970/3000 | loss 0.2409 | 1969.9ms | 16.6k tok/s
+step 1980/3000 | loss 0.1579 | 1965.2ms | 16.7k tok/s
+step 1990/3000 | loss 0.1884 | 1962.8ms | 16.7k tok/s
+
+[EVAL] step 2000: train loss 0.2290, val loss 0.7476, mem 3.93GB
+
+step 2000/3000 | loss 0.2022 | 25649.8ms | 1.3k tok/s
+step 2010/3000 | loss 0.2407 | 1993.0ms | 16.4k tok/s
+step 2020/3000 | loss 0.2258 | 1965.5ms | 16.7k tok/s
+step 2030/3000 | loss 0.2235 | 1972.3ms | 16.6k tok/s
+step 2040/3000 | loss 0.3116 | 415.1ms | 78.9k tok/s
+step 2050/3000 | loss 0.2533 | 1970.4ms | 16.6k tok/s
+step 2060/3000 | loss 0.1965 | 1979.3ms | 16.6k tok/s
+step 2070/3000 | loss 0.2901 | 1995.1ms | 16.4k tok/s
+step 2080/3000 | loss 0.2945 | 2011.6ms | 16.3k tok/s
+step 2090/3000 | loss 0.2739 | 2022.6ms | 16.2k tok/s
+step 2100/3000 | loss 0.2398 | 1984.9ms | 16.5k tok/s
+step 2110/3000 | loss 0.2366 | 1966.2ms | 16.7k tok/s
+step 2120/3000 | loss 0.2298 | 1975.4ms | 16.6k tok/s
+step 2130/3000 | loss 0.2560 | 1975.3ms | 16.6k tok/s
+step 2140/3000 | loss 0.2357 | 1985.9ms | 16.5k tok/s
+step 2150/3000 | loss 0.3056 | 1985.6ms | 16.5k tok/s
+step 2160/3000 | loss 0.3367 | 1975.0ms | 16.6k tok/s
+step 2170/3000 | loss 0.1827 | 1970.4ms | 16.6k tok/s
+step 2180/3000 | loss 0.3865 | 1981.8ms | 16.5k tok/s
+step 2190/3000 | loss 0.2036 | 234.0ms | 140.0k tok/s
+step 2200/3000 | loss 0.2522 | 1951.2ms | 16.8k tok/s
+step 2210/3000 | loss 0.1781 | 1976.1ms | 16.6k tok/s
+step 2220/3000 | loss 0.1655 | 1978.8ms | 16.6k tok/s
+step 2230/3000 | loss 0.3308 | 1963.7ms | 16.7k tok/s
+step 2240/3000 | loss 0.1913 | 1969.5ms | 16.6k tok/s
+
+[EVAL] step 2250: train loss 0.2101, val loss 0.7127, mem 3.93GB
+
+step 2250/3000 | loss 0.2850 | 25730.8ms | 1.3k tok/s
+step 2260/3000 | loss 0.1759 | 1955.9ms | 16.8k tok/s
+step 2270/3000 | loss 0.3158 | 1959.3ms | 16.7k tok/s
+step 2280/3000 | loss 0.1794 | 1975.8ms | 16.6k tok/s
+step 2290/3000 | loss 0.2930 | 1968.5ms | 16.6k tok/s
+step 2300/3000 | loss 0.2010 | 1949.0ms | 16.8k tok/s
+step 2310/3000 | loss 0.2309 | 1969.9ms | 16.6k tok/s
+step 2320/3000 | loss 0.2394 | 1965.6ms | 16.7k tok/s
+step 2330/3000 | loss 0.1350 | 1972.4ms | 16.6k tok/s
+step 2340/3000 | loss 0.0686 | 1966.4ms | 16.7k tok/s
+step 2350/3000 | loss 0.2453 | 1970.3ms | 16.6k tok/s
+step 2360/3000 | loss 0.2122 | 1961.5ms | 16.7k tok/s
+step 2370/3000 | loss 0.2620 | 352.7ms | 92.9k tok/s
+step 2380/3000 | loss 0.1791 | 1971.5ms | 16.6k tok/s
+step 2390/3000 | loss 0.2537 | 1944.9ms | 16.8k tok/s
+step 2400/3000 | loss 0.2940 | 1974.1ms | 16.6k tok/s
+step 2410/3000 | loss 0.2658 | 1984.3ms | 16.5k tok/s
+step 2420/3000 | loss 0.1618 | 1979.1ms | 16.6k tok/s
+step 2430/3000 | loss 0.1273 | 1973.7ms | 16.6k tok/s
+step 2440/3000 | loss 0.1991 | 1985.9ms | 16.5k tok/s
+step 2450/3000 | loss 0.2385 | 1995.1ms | 16.4k tok/s
+step 2460/3000 | loss 0.2486 | 1992.4ms | 16.4k tok/s
+step 2470/3000 | loss 0.1381 | 2007.9ms | 16.3k tok/s
+step 2480/3000 | loss 0.2040 | 2012.2ms | 16.3k tok/s
+step 2490/3000 | loss 0.1159 | 2014.3ms | 16.3k tok/s
+
+[EVAL] step 2500: train loss 0.2093, val loss 0.6701, mem 3.93GB
+
+step 2500/3000 | loss 0.1575 | 25578.9ms | 1.3k tok/s
+step 2510/3000 | loss 0.3098 | 1986.7ms | 16.5k tok/s
+step 2520/3000 | loss 0.2603 | 1978.7ms | 16.6k tok/s
+step 2530/3000 | loss 0.1669 | 1987.2ms | 16.5k tok/s
+step 2540/3000 | loss 0.1597 | 1983.7ms | 16.5k tok/s
+step 2550/3000 | loss 0.2730 | 366.4ms | 89.4k tok/s
+step 2560/3000 | loss 0.2331 | 1972.6ms | 16.6k tok/s
+step 2570/3000 | loss 0.2080 | 1979.4ms | 16.6k tok/s
+step 2580/3000 | loss 0.2607 | 1977.4ms | 16.6k tok/s
+step 2590/3000 | loss 0.1973 | 1982.7ms | 16.5k tok/s
+step 2600/3000 | loss 0.3343 | 1987.7ms | 16.5k tok/s
+step 2610/3000 | loss 0.2167 | 2004.5ms | 16.3k tok/s
+step 2620/3000 | loss 0.1488 | 1988.5ms | 16.5k tok/s
+step 2630/3000 | loss 0.1846 | 1989.2ms | 16.5k tok/s
+step 2640/3000 | loss 0.2623 | 1989.2ms | 16.5k tok/s
+step 2650/3000 | loss 0.3122 | 1995.0ms | 16.4k tok/s
+step 2660/3000 | loss 0.1353 | 1984.6ms | 16.5k tok/s
+step 2670/3000 | loss 0.2597 | 1973.4ms | 16.6k tok/s
+step 2680/3000 | loss 0.2183 | 1968.9ms | 16.6k tok/s
+step 2690/3000 | loss 0.1283 | 1971.9ms | 16.6k tok/s
+step 2700/3000 | loss 0.1113 | 264.0ms | 124.1k tok/s
+step 2710/3000 | loss 0.2454 | 1950.1ms | 16.8k tok/s
+step 2720/3000 | loss 0.1869 | 1945.7ms | 16.8k tok/s
+step 2730/3000 | loss 0.2067 | 1964.2ms | 16.7k tok/s
+step 2740/3000 | loss 0.1900 | 1960.3ms | 16.7k tok/s
+
+[EVAL] step 2750: train loss 0.1939, val loss 0.6447, mem 3.93GB
+
+step 2750/3000 | loss 0.2507 | 25665.8ms | 1.3k tok/s
+step 2760/3000 | loss 0.2709 | 1966.3ms | 16.7k tok/s
+step 2770/3000 | loss 0.1367 | 1964.0ms | 16.7k tok/s
+step 2780/3000 | loss 0.1116 | 2007.2ms | 16.3k tok/s
+step 2790/3000 | loss 0.1927 | 1983.7ms | 16.5k tok/s
+step 2800/3000 | loss 0.1694 | 1990.7ms | 16.5k tok/s
+step 2810/3000 | loss 0.2358 | 1983.9ms | 16.5k tok/s
+step 2820/3000 | loss 0.1083 | 1973.8ms | 16.6k tok/s
+step 2830/3000 | loss 0.2035 | 1979.8ms | 16.6k tok/s
+step 2840/3000 | loss 0.2678 | 1985.7ms | 16.5k tok/s
+step 2850/3000 | loss 0.2751 | 1979.8ms | 16.6k tok/s
+step 2860/3000 | loss 0.2128 | 1946.9ms | 16.8k tok/s
+step 2870/3000 | loss 0.2172 | 210.1ms | 155.9k tok/s
+step 2880/3000 | loss 0.1847 | 1964.0ms | 16.7k tok/s
+step 2890/3000 | loss 0.1812 | 1955.6ms | 16.8k tok/s
+step 2900/3000 | loss 0.2302 | 1949.7ms | 16.8k tok/s
+step 2910/3000 | loss 0.2737 | 1956.1ms | 16.8k tok/s
+step 2920/3000 | loss 0.2892 | 1972.8ms | 16.6k tok/s
+step 2930/3000 | loss 0.1816 | 1949.2ms | 16.8k tok/s
+step 2940/3000 | loss 0.0929 | 1976.8ms | 16.6k tok/s
+step 2950/3000 | loss 0.1656 | 1963.6ms | 16.7k tok/s
+step 2960/3000 | loss 0.2081 | 1964.2ms | 16.7k tok/s
+step 2970/3000 | loss 0.1352 | 1967.3ms | 16.7k tok/s
+step 2980/3000 | loss 0.2239 | 1984.2ms | 16.5k tok/s
+step 2990/3000 | loss 0.2787 | 1984.7ms | 16.5k tok/s
+Running final evaluation...
+
+[EVAL] step 3000: train loss 0.1960, val loss 0.6304, mem 3.93GB
+
+Training finished. Best Val Loss: 0.6304
+
+[3/5] Training MEDIUM...
+Vocab size: 99
+number of parameters: 25.23M
+Starting training medium...
+Config: Physical Batch=32, GradAccum=1, LR=0.0003
+
+[EVAL] step 0: train loss 4.5773, val loss 4.6194, mem 0.93GB
+
+step 0/3000 | loss 4.5969 | 62799.5ms | 0.5k tok/s
+step 10/3000 | loss 3.0225 | 3391.5ms | 9.7k tok/s
+step 20/3000 | loss 1.6628 | 5107.5ms | 6.4k tok/s
+step 30/3000 | loss 1.1583 | 5087.5ms | 6.4k tok/s
+step 40/3000 | loss 0.8913 | 5086.1ms | 6.4k tok/s
+step 50/3000 | loss 0.8422 | 5103.6ms | 6.4k tok/s
+step 60/3000 | loss 0.7796 | 3424.3ms | 9.6k tok/s
+step 70/3000 | loss 0.7575 | 5103.6ms | 6.4k tok/s
+step 80/3000 | loss 0.5582 | 5098.2ms | 6.4k tok/s
+step 90/3000 | loss 0.5583 | 5082.2ms | 6.4k tok/s
+step 100/3000 | loss 0.7200 | 5120.9ms | 6.4k tok/s
+step 110/3000 | loss 0.8454 | 5104.5ms | 6.4k tok/s
+step 120/3000 | loss 0.8660 | 3429.3ms | 9.6k tok/s
+step 130/3000 | loss 0.7639 | 5077.3ms | 6.5k tok/s
+step 140/3000 | loss 0.4797 | 5098.1ms | 6.4k tok/s
+step 150/3000 | loss 0.8094 | 5128.4ms | 6.4k tok/s
+step 160/3000 | loss 0.8727 | 5149.2ms | 6.4k tok/s
+step 170/3000 | loss 0.4678 | 5133.2ms | 6.4k tok/s
+step 180/3000 | loss 0.6437 | 3380.5ms | 9.7k tok/s
+step 190/3000 | loss 0.8258 | 5134.2ms | 6.4k tok/s
+step 200/3000 | loss 0.7103 | 5110.8ms | 6.4k tok/s
+step 210/3000 | loss 0.6574 | 5098.1ms | 6.4k tok/s
+step 220/3000 | loss 0.6848 | 5124.7ms | 6.4k tok/s
+step 230/3000 | loss 0.6505 | 5101.4ms | 6.4k tok/s
+step 240/3000 | loss 0.4444 | 3376.6ms | 9.7k tok/s
+
+[EVAL] step 250: train loss 0.6521, val loss 1.5192, mem 9.29GB
+
+step 250/3000 | loss 0.4635 | 66367.1ms | 0.5k tok/s
+step 260/3000 | loss 0.6043 | 5117.3ms | 6.4k tok/s
+step 270/3000 | loss 0.7464 | 5129.3ms | 6.4k tok/s
+step 280/3000 | loss 0.6423 | 5090.3ms | 6.4k tok/s
+step 290/3000 | loss 0.8473 | 3478.0ms | 9.4k tok/s
+step 300/3000 | loss 0.6328 | 5111.6ms | 6.4k tok/s
+step 310/3000 | loss 0.5778 | 5157.2ms | 6.4k tok/s
+step 320/3000 | loss 0.7345 | 5158.4ms | 6.4k tok/s
+step 330/3000 | loss 0.9005 | 5154.1ms | 6.4k tok/s
+step 340/3000 | loss 0.5589 | 5144.3ms | 6.4k tok/s
+step 350/3000 | loss 0.6195 | 3385.6ms | 9.7k tok/s
+step 360/3000 | loss 0.7885 | 5113.9ms | 6.4k tok/s
+step 370/3000 | loss 0.3617 | 5109.6ms | 6.4k tok/s
+step 380/3000 | loss 0.5448 | 5128.9ms | 6.4k tok/s
+step 390/3000 | loss 0.6886 | 5112.2ms | 6.4k tok/s
+step 400/3000 | loss 0.5526 | 5128.1ms | 6.4k tok/s
+step 410/3000 | loss 0.6397 | 3451.2ms | 9.5k tok/s
+step 420/3000 | loss 0.7733 | 5095.3ms | 6.4k tok/s
+step 430/3000 | loss 0.5779 | 5131.1ms | 6.4k tok/s
+step 440/3000 | loss 0.4918 | 5112.8ms | 6.4k tok/s
+step 450/3000 | loss 0.6564 | 5131.7ms | 6.4k tok/s
+step 460/3000 | loss 0.4705 | 5098.6ms | 6.4k tok/s
+step 470/3000 | loss 0.6886 | 3417.5ms | 9.6k tok/s
+step 480/3000 | loss 0.6039 | 5125.3ms | 6.4k tok/s
+step 490/3000 | loss 0.4833 | 5141.2ms | 6.4k tok/s
+
+[EVAL] step 500: train loss 0.5769, val loss 1.3623, mem 9.29GB
+
+step 500/3000 | loss 0.4078 | 66862.8ms | 0.5k tok/s
+step 510/3000 | loss 0.4786 | 3354.1ms | 9.8k tok/s
+step 520/3000 | loss 0.4561 | 5069.9ms | 6.5k tok/s
+step 530/3000 | loss 0.5466 | 5146.0ms | 6.4k tok/s
+step 540/3000 | loss 0.5479 | 5149.4ms | 6.4k tok/s
+step 550/3000 | loss 0.6377 | 5112.8ms | 6.4k tok/s
+step 560/3000 | loss 0.4421 | 5098.2ms | 6.4k tok/s
+step 570/3000 | loss 0.4839 | 3493.7ms | 9.4k tok/s
+step 580/3000 | loss 0.6191 | 5095.9ms | 6.4k tok/s
+step 590/3000 | loss 0.3991 | 5081.8ms | 6.4k tok/s
+step 600/3000 | loss 0.5457 | 5139.4ms | 6.4k tok/s
+step 610/3000 | loss 0.5336 | 5129.6ms | 6.4k tok/s
+step 620/3000 | loss 0.4859 | 5110.4ms | 6.4k tok/s
+step 630/3000 | loss 0.4563 | 3376.3ms | 9.7k tok/s
+step 640/3000 | loss 0.7413 | 5069.8ms | 6.5k tok/s
+step 650/3000 | loss 0.5547 | 5114.2ms | 6.4k tok/s
+step 660/3000 | loss 0.5653 | 5150.2ms | 6.4k tok/s
+step 670/3000 | loss 0.4137 | 5133.4ms | 6.4k tok/s
+step 680/3000 | loss 0.5198 | 5141.4ms | 6.4k tok/s
+step 690/3000 | loss 0.4364 | 3302.6ms | 9.9k tok/s
+step 700/3000 | loss 0.3723 | 5110.0ms | 6.4k tok/s
+step 710/3000 | loss 0.6000 | 5110.6ms | 6.4k tok/s
+step 720/3000 | loss 0.5795 | 5120.1ms | 6.4k tok/s
+step 730/3000 | loss 0.4830 | 5127.6ms | 6.4k tok/s
+step 740/3000 | loss 0.3935 | 5096.2ms | 6.4k tok/s
+
+[EVAL] step 750: train loss 0.4471, val loss 1.2435, mem 9.29GB
+
+step 750/3000 | loss 0.4907 | 64726.2ms | 0.5k tok/s
+step 760/3000 | loss 0.4425 | 5141.3ms | 6.4k tok/s
+step 770/3000 | loss 0.4481 | 5130.2ms | 6.4k tok/s
+step 780/3000 | loss 0.5412 | 5092.0ms | 6.4k tok/s
+step 790/3000 | loss 0.3954 | 5087.1ms | 6.4k tok/s
+step 800/3000 | loss 0.5650 | 3387.6ms | 9.7k tok/s
+step 810/3000 | loss 0.2760 | 5104.7ms | 6.4k tok/s
+step 820/3000 | loss 0.3697 | 5147.6ms | 6.4k tok/s
+step 830/3000 | loss 0.4887 | 5127.2ms | 6.4k tok/s
+step 840/3000 | loss 0.2823 | 5137.0ms | 6.4k tok/s
+step 850/3000 | loss 0.2787 | 5096.6ms | 6.4k tok/s
+step 860/3000 | loss 0.2919 | 3399.3ms | 9.6k tok/s
+step 870/3000 | loss 0.3064 | 5104.5ms | 6.4k tok/s
+step 880/3000 | loss 0.4173 | 5099.9ms | 6.4k tok/s
+step 890/3000 | loss 0.2490 | 5107.7ms | 6.4k tok/s
+step 900/3000 | loss 0.3235 | 5087.7ms | 6.4k tok/s
+step 910/3000 | loss 0.3721 | 5105.9ms | 6.4k tok/s
+step 920/3000 | loss 0.3789 | 3358.1ms | 9.8k tok/s
+step 930/3000 | loss 0.2738 | 5089.4ms | 6.4k tok/s
+step 940/3000 | loss 0.3231 | 5133.6ms | 6.4k tok/s
+step 950/3000 | loss 0.4906 | 5130.5ms | 6.4k tok/s
+step 960/3000 | loss 0.4682 | 5156.1ms | 6.4k tok/s
+step 970/3000 | loss 0.2367 | 3343.6ms | 9.8k tok/s
+step 980/3000 | loss 0.2264 | 5100.4ms | 6.4k tok/s
+step 990/3000 | loss 0.4493 | 5113.7ms | 6.4k tok/s
+
+[EVAL] step 1000: train loss 0.3286, val loss 1.0361, mem 9.29GB
+
+step 1000/3000 | loss 0.4232 | 66596.1ms | 0.5k tok/s
+step 1010/3000 | loss 0.3518 | 5106.7ms | 6.4k tok/s
+step 1020/3000 | loss 0.2800 | 3422.7ms | 9.6k tok/s
+step 1030/3000 | loss 0.2350 | 5105.5ms | 6.4k tok/s
+step 1040/3000 | loss 0.3044 | 5128.0ms | 6.4k tok/s
+step 1050/3000 | loss 0.2951 | 5162.6ms | 6.3k tok/s
+step 1060/3000 | loss 0.2897 | 5108.3ms | 6.4k tok/s
+step 1070/3000 | loss 0.2770 | 5123.6ms | 6.4k tok/s
+step 1080/3000 | loss 0.2106 | 3343.9ms | 9.8k tok/s
+step 1090/3000 | loss 0.4417 | 5110.7ms | 6.4k tok/s
+step 1100/3000 | loss 0.3832 | 5110.9ms | 6.4k tok/s
+step 1110/3000 | loss 0.3248 | 5115.2ms | 6.4k tok/s
+step 1120/3000 | loss 0.2466 | 5133.5ms | 6.4k tok/s
+step 1130/3000 | loss 0.2782 | 5123.1ms | 6.4k tok/s
+step 1140/3000 | loss 0.3822 | 3406.2ms | 9.6k tok/s
+step 1150/3000 | loss 0.2958 | 5131.7ms | 6.4k tok/s
+step 1160/3000 | loss 0.3233 | 5103.0ms | 6.4k tok/s
+step 1170/3000 | loss 0.2092 | 5128.4ms | 6.4k tok/s
+step 1180/3000 | loss 0.3546 | 5118.2ms | 6.4k tok/s
+step 1190/3000 | loss 0.2531 | 5099.1ms | 6.4k tok/s
+step 1200/3000 | loss 0.1853 | 3354.2ms | 9.8k tok/s
+step 1210/3000 | loss 0.0980 | 5118.9ms | 6.4k tok/s
+step 1220/3000 | loss 0.3032 | 5135.4ms | 6.4k tok/s
+step 1230/3000 | loss 0.2251 | 5137.5ms | 6.4k tok/s
+step 1240/3000 | loss 0.1441 | 5131.5ms | 6.4k tok/s
+
+[EVAL] step 1250: train loss 0.2788, val loss 0.8856, mem 9.29GB
+
+step 1250/3000 | loss 0.2335 | 64822.0ms | 0.5k tok/s
+step 1260/3000 | loss 0.3097 | 5112.8ms | 6.4k tok/s
+step 1270/3000 | loss 0.2781 | 5094.9ms | 6.4k tok/s
+step 1280/3000 | loss 0.2247 | 5104.8ms | 6.4k tok/s
+step 1290/3000 | loss 0.3263 | 5108.4ms | 6.4k tok/s
+step 1300/3000 | loss 0.5360 | 5093.5ms | 6.4k tok/s
+step 1310/3000 | loss 0.2106 | 3426.7ms | 9.6k tok/s
+step 1320/3000 | loss 0.2829 | 5115.0ms | 6.4k tok/s
+step 1330/3000 | loss 0.3657 | 5124.5ms | 6.4k tok/s
+step 1340/3000 | loss 0.2151 | 5113.3ms | 6.4k tok/s
+step 1350/3000 | loss 0.2364 | 5099.6ms | 6.4k tok/s
+step 1360/3000 | loss 0.4688 | 5125.3ms | 6.4k tok/s
+step 1370/3000 | loss 0.3660 | 3367.4ms | 9.7k tok/s
+step 1380/3000 | loss 0.2677 | 5117.2ms | 6.4k tok/s
+step 1390/3000 | loss 0.2187 | 5122.5ms | 6.4k tok/s
+step 1400/3000 | loss 0.1790 | 5125.2ms | 6.4k tok/s
+step 1410/3000 | loss 0.2221 | 5130.5ms | 6.4k tok/s
+step 1420/3000 | loss 0.3427 | 3365.9ms | 9.7k tok/s
+step 1430/3000 | loss 0.2243 | 5128.9ms | 6.4k tok/s
+step 1440/3000 | loss 0.4224 | 5112.6ms | 6.4k tok/s
+step 1450/3000 | loss 0.1829 | 5128.7ms | 6.4k tok/s
+step 1460/3000 | loss 0.4452 | 5120.2ms | 6.4k tok/s
+step 1470/3000 | loss 0.2225 | 5096.8ms | 6.4k tok/s
+step 1480/3000 | loss 0.3607 | 3373.4ms | 9.7k tok/s
+step 1490/3000 | loss 0.1642 | 5126.3ms | 6.4k tok/s
+
+[EVAL] step 1500: train loss 0.2548, val loss 0.8075, mem 9.29GB
+
+step 1500/3000 | loss 0.1902 | 66751.3ms | 0.5k tok/s
+step 1510/3000 | loss 0.2549 | 5139.8ms | 6.4k tok/s
+step 1520/3000 | loss 0.3282 | 5143.8ms | 6.4k tok/s
+step 1530/3000 | loss 0.1647 | 3288.0ms | 10.0k tok/s
+step 1540/3000 | loss 0.2866 | 5091.0ms | 6.4k tok/s
+step 1550/3000 | loss 0.2704 | 5099.6ms | 6.4k tok/s
+step 1560/3000 | loss 0.2459 | 5108.9ms | 6.4k tok/s
+step 1570/3000 | loss 0.2911 | 5129.7ms | 6.4k tok/s
+step 1580/3000 | loss 0.1980 | 5107.6ms | 6.4k tok/s
+step 1590/3000 | loss 0.3657 | 3410.3ms | 9.6k tok/s
+step 1600/3000 | loss 0.3420 | 5123.3ms | 6.4k tok/s
+step 1610/3000 | loss 0.2676 | 5133.7ms | 6.4k tok/s
+step 1620/3000 | loss 0.2041 | 5185.2ms | 6.3k tok/s
+step 1630/3000 | loss 0.2055 | 5116.7ms | 6.4k tok/s
+step 1640/3000 | loss 0.1689 | 5100.0ms | 6.4k tok/s
+step 1650/3000 | loss 0.1908 | 3311.3ms | 9.9k tok/s
+step 1660/3000 | loss 0.1481 | 5095.3ms | 6.4k tok/s
+step 1670/3000 | loss 0.2807 | 5105.6ms | 6.4k tok/s
+step 1680/3000 | loss 0.2601 | 5085.1ms | 6.4k tok/s
+step 1690/3000 | loss 0.2548 | 5126.4ms | 6.4k tok/s
+step 1700/3000 | loss 0.2663 | 5111.0ms | 6.4k tok/s
+step 1710/3000 | loss 0.1836 | 3386.9ms | 9.7k tok/s
+step 1720/3000 | loss 0.1788 | 5111.9ms | 6.4k tok/s
+step 1730/3000 | loss 0.3294 | 5141.6ms | 6.4k tok/s
+step 1740/3000 | loss 0.3406 | 5120.7ms | 6.4k tok/s
+
+[EVAL] step 1750: train loss 0.2279, val loss 0.7499, mem 9.29GB
+
+step 1750/3000 | loss 0.3218 | 66503.6ms | 0.5k tok/s
+step 1760/3000 | loss 0.2889 | 3352.2ms | 9.8k tok/s
+step 1770/3000 | loss 0.2462 | 5106.3ms | 6.4k tok/s
+step 1780/3000 | loss 0.1841 | 5184.3ms | 6.3k tok/s
+step 1790/3000 | loss 0.1934 | 5138.2ms | 6.4k tok/s
+step 1800/3000 | loss 0.2247 | 5124.5ms | 6.4k tok/s
+step 1810/3000 | loss 0.1953 | 4413.6ms | 7.4k tok/s
+step 1820/3000 | loss 0.1826 | 3982.5ms | 8.2k tok/s
+step 1830/3000 | loss 0.1982 | 5116.8ms | 6.4k tok/s
+step 1840/3000 | loss 0.1159 | 5098.4ms | 6.4k tok/s
+step 1850/3000 | loss 0.3157 | 5128.5ms | 6.4k tok/s
+step 1860/3000 | loss 0.1994 | 5117.5ms | 6.4k tok/s
+step 1870/3000 | loss 0.1835 | 3352.6ms | 9.8k tok/s
+step 1880/3000 | loss 0.1847 | 5113.5ms | 6.4k tok/s
+step 1890/3000 | loss 0.1868 | 5086.8ms | 6.4k tok/s
+step 1900/3000 | loss 0.1372 | 5123.6ms | 6.4k tok/s
+step 1910/3000 | loss 0.2620 | 5189.1ms | 6.3k tok/s
+step 1920/3000 | loss 0.1035 | 5068.0ms | 6.5k tok/s
+step 1930/3000 | loss 0.2332 | 3294.7ms | 9.9k tok/s
+step 1940/3000 | loss 0.1475 | 5104.1ms | 6.4k tok/s
+step 1950/3000 | loss 0.1894 | 5101.4ms | 6.4k tok/s
+step 1960/3000 | loss 0.2183 | 5138.0ms | 6.4k tok/s
+step 1970/3000 | loss 0.1653 | 5128.4ms | 6.4k tok/s
+step 1980/3000 | loss 0.3707 | 5107.1ms | 6.4k tok/s
+step 1990/3000 | loss 0.2450 | 3378.6ms | 9.7k tok/s
+
+[EVAL] step 2000: train loss 0.2089, val loss 0.6840, mem 9.29GB
+
+step 2000/3000 | loss 0.1410 | 66506.1ms | 0.5k tok/s
+step 2010/3000 | loss 0.3508 | 5127.1ms | 6.4k tok/s
+step 2020/3000 | loss 0.1853 | 5126.9ms | 6.4k tok/s
+step 2030/3000 | loss 0.1405 | 5126.3ms | 6.4k tok/s
+step 2040/3000 | loss 0.2516 | 3341.3ms | 9.8k tok/s
+step 2050/3000 | loss 0.1565 | 5088.8ms | 6.4k tok/s
+step 2060/3000 | loss 0.2472 | 5113.1ms | 6.4k tok/s
+step 2070/3000 | loss 0.1724 | 5168.0ms | 6.3k tok/s
+step 2080/3000 | loss 0.2596 | 5115.6ms | 6.4k tok/s
+step 2090/3000 | loss 0.3169 | 5121.6ms | 6.4k tok/s
+step 2100/3000 | loss 0.2195 | 3260.3ms | 10.1k tok/s
+step 2110/3000 | loss 0.1784 | 5114.1ms | 6.4k tok/s
+step 2120/3000 | loss 0.2288 | 5114.3ms | 6.4k tok/s
+step 2130/3000 | loss 0.1319 | 5137.5ms | 6.4k tok/s
+step 2140/3000 | loss 0.2323 | 5120.3ms | 6.4k tok/s
+step 2150/3000 | loss 0.2245 | 5108.6ms | 6.4k tok/s
+step 2160/3000 | loss 0.1627 | 3371.0ms | 9.7k tok/s
+step 2170/3000 | loss 0.2457 | 5116.6ms | 6.4k tok/s
+step 2180/3000 | loss 0.1311 | 5129.1ms | 6.4k tok/s
+step 2190/3000 | loss 0.0733 | 5146.0ms | 6.4k tok/s
+step 2200/3000 | loss 0.3229 | 5130.0ms | 6.4k tok/s
+step 2210/3000 | loss 0.1631 | 5138.1ms | 6.4k tok/s
+step 2220/3000 | loss 0.1764 | 3340.3ms | 9.8k tok/s
+step 2230/3000 | loss 0.2589 | 5122.4ms | 6.4k tok/s
+step 2240/3000 | loss 0.1596 | 5130.0ms | 6.4k tok/s
+
+[EVAL] step 2250: train loss 0.1910, val loss 0.6198, mem 9.29GB
+
+step 2250/3000 | loss 0.1397 | 66468.6ms | 0.5k tok/s
+step 2260/3000 | loss 0.1452 | 3234.3ms | 10.1k tok/s
+step 2270/3000 | loss 0.1188 | 5077.4ms | 6.5k tok/s
+step 2280/3000 | loss 0.1787 | 5093.1ms | 6.4k tok/s
+step 2290/3000 | loss 0.1851 | 5134.8ms | 6.4k tok/s
+step 2300/3000 | loss 0.1542 | 5142.1ms | 6.4k tok/s
+step 2310/3000 | loss 0.1535 | 5101.4ms | 6.4k tok/s
+step 2320/3000 | loss 0.1044 | 3350.0ms | 9.8k tok/s
+step 2330/3000 | loss 0.1602 | 5099.9ms | 6.4k tok/s
+step 2340/3000 | loss 0.2009 | 5112.5ms | 6.4k tok/s
+step 2350/3000 | loss 0.1213 | 5177.7ms | 6.3k tok/s
+step 2360/3000 | loss 0.2795 | 5128.8ms | 6.4k tok/s
+step 2370/3000 | loss 0.2948 | 5104.2ms | 6.4k tok/s
+step 2380/3000 | loss 0.1367 | 3280.5ms | 10.0k tok/s
+step 2390/3000 | loss 0.2973 | 5104.9ms | 6.4k tok/s
+step 2400/3000 | loss 0.1468 | 5100.8ms | 6.4k tok/s
+step 2410/3000 | loss 0.2295 | 5119.4ms | 6.4k tok/s
+step 2420/3000 | loss 0.2395 | 5145.4ms | 6.4k tok/s
+step 2430/3000 | loss 0.1350 | 5118.4ms | 6.4k tok/s
+step 2440/3000 | loss 0.2386 | 3418.5ms | 9.6k tok/s
+step 2450/3000 | loss 0.1748 | 5118.2ms | 6.4k tok/s
+step 2460/3000 | loss 0.2021 | 5129.0ms | 6.4k tok/s
+step 2470/3000 | loss 0.1329 | 5138.8ms | 6.4k tok/s
+step 2480/3000 | loss 0.1831 | 5139.5ms | 6.4k tok/s
+step 2490/3000 | loss 0.2511 | 5127.7ms | 6.4k tok/s
+
+[EVAL] step 2500: train loss 0.1751, val loss 0.5823, mem 9.29GB
+
+step 2500/3000 | loss 0.1803 | 64657.2ms | 0.5k tok/s
+step 2510/3000 | loss 0.1655 | 5141.4ms | 6.4k tok/s
+step 2520/3000 | loss 0.1673 | 5186.3ms | 6.3k tok/s
+step 2530/3000 | loss 0.1488 | 5094.7ms | 6.4k tok/s
+step 2540/3000 | loss 0.1108 | 5078.0ms | 6.5k tok/s
+step 2550/3000 | loss 0.1837 | 3239.2ms | 10.1k tok/s
+step 2560/3000 | loss 0.1925 | 5117.4ms | 6.4k tok/s
+step 2570/3000 | loss 0.2152 | 5115.1ms | 6.4k tok/s
+step 2580/3000 | loss 0.2118 | 5118.3ms | 6.4k tok/s
+step 2590/3000 | loss 0.1401 | 5101.8ms | 6.4k tok/s
+step 2600/3000 | loss 0.1279 | 5107.3ms | 6.4k tok/s
+step 2610/3000 | loss 0.1293 | 3379.6ms | 9.7k tok/s
+step 2620/3000 | loss 0.1453 | 5113.8ms | 6.4k tok/s
+step 2630/3000 | loss 0.1761 | 5127.5ms | 6.4k tok/s
+step 2640/3000 | loss 0.2255 | 5155.7ms | 6.4k tok/s
+step 2650/3000 | loss 0.1801 | 5091.3ms | 6.4k tok/s
+step 2660/3000 | loss 0.2420 | 5098.3ms | 6.4k tok/s
+step 2670/3000 | loss 0.2171 | 3270.7ms | 10.0k tok/s
+step 2680/3000 | loss 0.1509 | 5087.4ms | 6.4k tok/s
+step 2690/3000 | loss 0.1064 | 5137.9ms | 6.4k tok/s
+step 2700/3000 | loss 0.1419 | 5113.9ms | 6.4k tok/s
+step 2710/3000 | loss 0.1945 | 5134.4ms | 6.4k tok/s
+step 2720/3000 | loss 0.2014 | 3290.0ms | 10.0k tok/s
+step 2730/3000 | loss 0.1955 | 5100.7ms | 6.4k tok/s
+step 2740/3000 | loss 0.1276 | 5095.7ms | 6.4k tok/s
+
+[EVAL] step 2750: train loss 0.1763, val loss 0.5701, mem 9.29GB
+
+step 2750/3000 | loss 0.2440 | 66889.6ms | 0.5k tok/s
+step 2760/3000 | loss 0.1539 | 5130.5ms | 6.4k tok/s
+step 2770/3000 | loss 0.1354 | 3174.9ms | 10.3k tok/s
+step 2780/3000 | loss 0.1632 | 5105.0ms | 6.4k tok/s
+step 2790/3000 | loss 0.2788 | 5118.8ms | 6.4k tok/s
+step 2800/3000 | loss 0.1032 | 5095.9ms | 6.4k tok/s
+step 2810/3000 | loss 0.2060 | 5074.5ms | 6.5k tok/s
+step 2820/3000 | loss 0.1268 | 5102.2ms | 6.4k tok/s
+step 2830/3000 | loss 0.2504 | 3319.0ms | 9.9k tok/s
+step 2840/3000 | loss 0.1203 | 5104.3ms | 6.4k tok/s
+step 2850/3000 | loss 0.2003 | 5107.5ms | 6.4k tok/s
+step 2860/3000 | loss 0.1403 | 5116.3ms | 6.4k tok/s
+step 2870/3000 | loss 0.1828 | 5115.1ms | 6.4k tok/s
+step 2880/3000 | loss 0.1511 | 5148.1ms | 6.4k tok/s
+step 2890/3000 | loss 0.1534 | 3266.4ms | 10.0k tok/s
+step 2900/3000 | loss 0.1948 | 5120.9ms | 6.4k tok/s
+step 2910/3000 | loss 0.1822 | 5115.1ms | 6.4k tok/s
+step 2920/3000 | loss 0.1482 | 4762.2ms | 6.9k tok/s
+step 2930/3000 | loss 0.0944 | 4785.4ms | 6.8k tok/s
+step 2940/3000 | loss 0.1918 | 4772.4ms | 6.9k tok/s
+step 2950/3000 | loss 0.1761 | 2984.3ms | 11.0k tok/s
+step 2960/3000 | loss 0.1626 | 4775.8ms | 6.9k tok/s
+step 2970/3000 | loss 0.2211 | 4778.9ms | 6.9k tok/s
+step 2980/3000 | loss 0.1513 | 4803.8ms | 6.8k tok/s
+step 2990/3000 | loss 0.2044 | 4793.8ms | 6.8k tok/s
+Running final evaluation...
+
+[EVAL] step 3000: train loss 0.1725, val loss 0.5538, mem 9.29GB
+
+[4/5] Training LARGE...
+Vocab size: 99
+number of parameters: 85.03M
+Starting training large...
+Config: Physical Batch=8, GradAccum=4, LR=0.00025
+
+[EVAL] step 0: train loss 4.6776, val loss 4.6428, mem 0.66GB
+
+step 0/3000 | loss 4.5129 | 48368.1ms | 0.7k tok/s
+step 10/3000 | loss 2.2058 | 12164.0ms | 2.7k tok/s
+step 20/3000 | loss 2.0491 | 14031.8ms | 2.3k tok/s
+step 30/3000 | loss 1.4120 | 12152.4ms | 2.7k tok/s
+step 40/3000 | loss 0.6778 | 14008.6ms | 2.3k tok/s
+step 50/3000 | loss 0.6711 | 12212.0ms | 2.7k tok/s
+step 60/3000 | loss 0.9148 | 14023.4ms | 2.3k tok/s
+step 70/3000 | loss 0.7463 | 12169.4ms | 2.7k tok/s
+step 80/3000 | loss 0.8270 | 14003.8ms | 2.3k tok/s
+step 90/3000 | loss 0.9515 | 14048.3ms | 2.3k tok/s
+step 100/3000 | loss 1.0173 | 12132.2ms | 2.7k tok/s
+step 110/3000 | loss 1.0543 | 14015.3ms | 2.3k tok/s
+step 120/3000 | loss 0.6595 | 12189.7ms | 2.7k tok/s
+step 130/3000 | loss 0.5418 | 14025.0ms | 2.3k tok/s
+step 140/3000 | loss 0.7106 | 12134.3ms | 2.7k tok/s
+step 150/3000 | loss 0.7898 | 14064.1ms | 2.3k tok/s
+step 160/3000 | loss 0.8019 | 12143.4ms | 2.7k tok/s
+step 170/3000 | loss 0.3819 | 14030.7ms | 2.3k tok/s
+step 180/3000 | loss 0.7259 | 12158.2ms | 2.7k tok/s
+step 190/3000 | loss 0.7274 | 14041.5ms | 2.3k tok/s
+step 200/3000 | loss 0.8399 | 12219.2ms | 2.7k tok/s
+step 210/3000 | loss 0.8385 | 13991.8ms | 2.3k tok/s
+step 220/3000 | loss 0.6088 | 12219.1ms | 2.7k tok/s
+step 230/3000 | loss 1.2327 | 13989.5ms | 2.3k tok/s
+step 240/3000 | loss 0.5897 | 14040.0ms | 2.3k tok/s
+
+[EVAL] step 250: train loss 0.6810, val loss 1.5805, mem 6.37GB
+
+step 250/3000 | loss 0.4983 | 58869.9ms | 0.6k tok/s
+step 260/3000 | loss 0.5245 | 14030.5ms | 2.3k tok/s
+step 270/3000 | loss 0.6452 | 12162.6ms | 2.7k tok/s
+step 280/3000 | loss 0.4986 | 14116.2ms | 2.3k tok/s
+step 290/3000 | loss 0.9493 | 12113.5ms | 2.7k tok/s
+step 300/3000 | loss 0.4966 | 13977.1ms | 2.3k tok/s
+step 310/3000 | loss 0.5216 | 14023.3ms | 2.3k tok/s
+step 320/3000 | loss 0.4762 | 12233.0ms | 2.7k tok/s
+step 330/3000 | loss 1.0426 | 14073.8ms | 2.3k tok/s
+step 340/3000 | loss 0.3685 | 12142.0ms | 2.7k tok/s
+step 350/3000 | loss 0.5583 | 14022.9ms | 2.3k tok/s
+step 360/3000 | loss 0.8490 | 12201.3ms | 2.7k tok/s
+step 370/3000 | loss 0.5106 | 14001.7ms | 2.3k tok/s
+step 380/3000 | loss 0.4529 | 12179.6ms | 2.7k tok/s
+step 390/3000 | loss 1.3327 | 14084.2ms | 2.3k tok/s
+step 400/3000 | loss 0.4137 | 12184.1ms | 2.7k tok/s
+step 410/3000 | loss 0.4289 | 14041.6ms | 2.3k tok/s
+step 420/3000 | loss 0.5893 | 12193.1ms | 2.7k tok/s
+step 430/3000 | loss 0.5981 | 14026.7ms | 2.3k tok/s
+step 440/3000 | loss 0.8764 | 12143.1ms | 2.7k tok/s
+step 450/3000 | loss 0.9274 | 14018.4ms | 2.3k tok/s
+step 460/3000 | loss 0.4662 | 14039.5ms | 2.3k tok/s
+step 470/3000 | loss 0.9509 | 12216.6ms | 2.7k tok/s
+step 480/3000 | loss 0.6942 | 14043.6ms | 2.3k tok/s
+step 490/3000 | loss 1.1718 | 12179.1ms | 2.7k tok/s
+
+[EVAL] step 500: train loss 0.5683, val loss 1.4010, mem 6.37GB
+
+step 500/3000 | loss 0.6198 | 60696.0ms | 0.5k tok/s
+step 510/3000 | loss 0.6642 | 14033.5ms | 2.3k tok/s
+step 520/3000 | loss 0.8934 | 12150.3ms | 2.7k tok/s
+step 530/3000 | loss 0.8812 | 14076.9ms | 2.3k tok/s
+step 540/3000 | loss 0.1419 | 12090.2ms | 2.7k tok/s
+step 550/3000 | loss 0.6824 | 14015.1ms | 2.3k tok/s
+step 560/3000 | loss 0.6798 | 12193.4ms | 2.7k tok/s
+step 570/3000 | loss 0.2064 | 14024.5ms | 2.3k tok/s
+step 580/3000 | loss 0.4397 | 12140.4ms | 2.7k tok/s
+step 590/3000 | loss 0.2584 | 14073.0ms | 2.3k tok/s
+step 600/3000 | loss 0.3491 | 12137.9ms | 2.7k tok/s
+step 610/3000 | loss 0.7676 | 14004.4ms | 2.3k tok/s
+step 620/3000 | loss 0.7574 | 12191.5ms | 2.7k tok/s
+step 630/3000 | loss 0.4659 | 14022.5ms | 2.3k tok/s
+step 640/3000 | loss 0.3744 | 12149.2ms | 2.7k tok/s
+step 650/3000 | loss 0.5522 | 14035.0ms | 2.3k tok/s
+step 660/3000 | loss 0.4910 | 14088.8ms | 2.3k tok/s
+step 670/3000 | loss 0.4647 | 12150.6ms | 2.7k tok/s
+step 680/3000 | loss 0.8173 | 14018.0ms | 2.3k tok/s
+step 690/3000 | loss 0.5899 | 12133.7ms | 2.7k tok/s
+step 700/3000 | loss 0.4524 | 14096.1ms | 2.3k tok/s
+step 710/3000 | loss 0.7593 | 12150.5ms | 2.7k tok/s
+step 720/3000 | loss 0.2258 | 14066.3ms | 2.3k tok/s
+step 730/3000 | loss 0.4637 | 12171.9ms | 2.7k tok/s
+step 740/3000 | loss 0.5386 | 14069.0ms | 2.3k tok/s
+
+[EVAL] step 750: train loss 0.4657, val loss 1.2226, mem 6.37GB
+
+step 750/3000 | loss 0.2357 | 60762.0ms | 0.5k tok/s
+step 760/3000 | loss 0.1833 | 12171.1ms | 2.7k tok/s
+step 770/3000 | loss 0.6573 | 14107.2ms | 2.3k tok/s
+step 780/3000 | loss 0.3932 | 12043.3ms | 2.7k tok/s
+step 790/3000 | loss 0.3656 | 14041.1ms | 2.3k tok/s
+step 800/3000 | loss 0.6312 | 13088.0ms | 2.5k tok/s
+step 810/3000 | loss 0.4874 | 15331.2ms | 2.1k tok/s
+step 820/3000 | loss 0.7527 | 13458.9ms | 2.4k tok/s
+step 830/3000 | loss 0.5214 | 14416.7ms | 2.3k tok/s
+step 840/3000 | loss 0.3954 | 12244.4ms | 2.7k tok/s
+step 850/3000 | loss 0.5327 | 14153.7ms | 2.3k tok/s
+step 860/3000 | loss 0.2246 | 12258.4ms | 2.7k tok/s
+step 870/3000 | loss 0.5975 | 14151.0ms | 2.3k tok/s
+step 880/3000 | loss 0.2552 | 12274.8ms | 2.7k tok/s
+step 890/3000 | loss 0.2682 | 14186.3ms | 2.3k tok/s
+step 900/3000 | loss 0.0488 | 12245.8ms | 2.7k tok/s
+step 910/3000 | loss 0.1471 | 14174.5ms | 2.3k tok/s
+step 920/3000 | loss 0.2984 | 14182.3ms | 2.3k tok/s
+step 930/3000 | loss 0.2927 | 12348.8ms | 2.7k tok/s
+step 940/3000 | loss 0.2494 | 14170.5ms | 2.3k tok/s
+step 950/3000 | loss 0.2500 | 12260.7ms | 2.7k tok/s
+step 960/3000 | loss 0.3964 | 14242.8ms | 2.3k tok/s
+step 970/3000 | loss 0.4356 | 12214.4ms | 2.7k tok/s
+step 980/3000 | loss 0.5325 | 14206.8ms | 2.3k tok/s
+step 990/3000 | loss 0.4603 | 12282.8ms | 2.7k tok/s
+
+[EVAL] step 1000: train loss 0.3630, val loss 1.0505, mem 6.37GB
+
+step 1000/3000 | loss 0.3130 | 61220.4ms | 0.5k tok/s
+step 1010/3000 | loss 0.2905 | 14191.8ms | 2.3k tok/s
+step 1020/3000 | loss 0.3666 | 12293.6ms | 2.7k tok/s
+step 1030/3000 | loss 0.8607 | 14276.0ms | 2.3k tok/s
+step 1040/3000 | loss 0.1616 | 12210.0ms | 2.7k tok/s
+step 1050/3000 | loss 0.2669 | 14159.5ms | 2.3k tok/s
+step 1060/3000 | loss 0.3669 | 12290.3ms | 2.7k tok/s
+step 1070/3000 | loss 0.2421 | 14221.1ms | 2.3k tok/s
+step 1080/3000 | loss 0.2169 | 12266.0ms | 2.7k tok/s
+step 1090/3000 | loss 0.2595 | 14163.8ms | 2.3k tok/s
+step 1100/3000 | loss 0.2649 | 12274.9ms | 2.7k tok/s
+step 1110/3000 | loss 0.4620 | 14170.6ms | 2.3k tok/s
+step 1120/3000 | loss 0.4210 | 12279.2ms | 2.7k tok/s
+step 1130/3000 | loss 0.5712 | 14194.1ms | 2.3k tok/s
+step 1140/3000 | loss 0.4642 | 12239.1ms | 2.7k tok/s
+step 1150/3000 | loss 0.2536 | 14139.6ms | 2.3k tok/s
+step 1160/3000 | loss 0.3446 | 12255.7ms | 2.7k tok/s
+step 1170/3000 | loss 0.4809 | 14136.7ms | 2.3k tok/s
+step 1180/3000 | loss 0.4217 | 14131.9ms | 2.3k tok/s
+step 1190/3000 | loss 0.2275 | 12238.2ms | 2.7k tok/s
+step 1200/3000 | loss 0.0758 | 14190.1ms | 2.3k tok/s
+step 1210/3000 | loss 0.3969 | 12221.7ms | 2.7k tok/s
+step 1220/3000 | loss 0.3678 | 14192.1ms | 2.3k tok/s
+step 1230/3000 | loss 0.5443 | 12224.0ms | 2.7k tok/s
+step 1240/3000 | loss 0.0653 | 14142.8ms | 2.3k tok/s
+
+[EVAL] step 1250: train loss 0.3184, val loss 0.9066, mem 6.37GB
+
+step 1250/3000 | loss 0.4247 | 61344.2ms | 0.5k tok/s
+step 1260/3000 | loss 0.2501 | 12279.9ms | 2.7k tok/s
+step 1270/3000 | loss 0.0473 | 14157.1ms | 2.3k tok/s
+step 1280/3000 | loss 0.3827 | 12293.3ms | 2.7k tok/s
+step 1290/3000 | loss 0.0094 | 14180.5ms | 2.3k tok/s
+step 1300/3000 | loss 0.4351 | 12239.3ms | 2.7k tok/s
+step 1310/3000 | loss 0.2734 | 14161.6ms | 2.3k tok/s
+step 1320/3000 | loss 0.2466 | 12220.2ms | 2.7k tok/s
+step 1330/3000 | loss 0.3590 | 14120.0ms | 2.3k tok/s
+step 1340/3000 | loss 0.2252 | 12255.2ms | 2.7k tok/s
+step 1350/3000 | loss 0.2725 | 14189.5ms | 2.3k tok/s
+step 1360/3000 | loss 0.2445 | 12266.5ms | 2.7k tok/s
+step 1370/3000 | loss 0.4503 | 14151.6ms | 2.3k tok/s
+step 1380/3000 | loss 0.0976 | 12220.7ms | 2.7k tok/s
+step 1390/3000 | loss 0.3318 | 14144.3ms | 2.3k tok/s
+step 1400/3000 | loss 0.3201 | 12276.8ms | 2.7k tok/s
+step 1410/3000 | loss 0.2718 | 14177.7ms | 2.3k tok/s
+step 1420/3000 | loss 0.1454 | 13387.3ms | 2.4k tok/s
+step 1430/3000 | loss 0.1763 | 13062.0ms | 2.5k tok/s
+step 1440/3000 | loss 0.1986 | 14290.7ms | 2.3k tok/s
+step 1450/3000 | loss 0.2475 | 12136.0ms | 2.7k tok/s
+step 1460/3000 | loss 0.1728 | 14153.8ms | 2.3k tok/s
+step 1470/3000 | loss 0.1873 | 12318.7ms | 2.7k tok/s
+step 1480/3000 | loss 0.1157 | 14276.0ms | 2.3k tok/s
+step 1490/3000 | loss 0.1506 | 12210.7ms | 2.7k tok/s
+
+[EVAL] step 1500: train loss 0.2634, val loss 0.8187, mem 6.37GB
+
+step 1500/3000 | loss 0.2238 | 60936.8ms | 0.5k tok/s
+step 1510/3000 | loss 0.2231 | 14208.1ms | 2.3k tok/s
+step 1520/3000 | loss 0.0677 | 12209.2ms | 2.7k tok/s
+step 1530/3000 | loss 0.3459 | 14174.0ms | 2.3k tok/s
+step 1540/3000 | loss 0.1729 | 12227.9ms | 2.7k tok/s
+step 1550/3000 | loss 0.4364 | 14249.4ms | 2.3k tok/s
+step 1560/3000 | loss 0.1969 | 12217.4ms | 2.7k tok/s
+step 1570/3000 | loss 0.3627 | 14179.6ms | 2.3k tok/s
+step 1580/3000 | loss 0.1362 | 12328.2ms | 2.7k tok/s
+step 1590/3000 | loss 0.3924 | 14230.0ms | 2.3k tok/s
+step 1600/3000 | loss 0.0052 | 12275.6ms | 2.7k tok/s
+step 1610/3000 | loss 0.1137 | 14209.6ms | 2.3k tok/s
+step 1620/3000 | loss 0.0527 | 12260.7ms | 2.7k tok/s
+step 1630/3000 | loss 0.0075 | 14136.9ms | 2.3k tok/s
+step 1640/3000 | loss 0.1718 | 12402.7ms | 2.6k tok/s
+step 1650/3000 | loss 0.1931 | 14099.4ms | 2.3k tok/s
+step 1660/3000 | loss 0.4103 | 12227.6ms | 2.7k tok/s
+step 1670/3000 | loss 0.2162 | 14176.6ms | 2.3k tok/s
+step 1680/3000 | loss 0.1547 | 14488.1ms | 2.3k tok/s
+step 1690/3000 | loss 0.2400 | 13379.4ms | 2.4k tok/s
+step 1700/3000 | loss 0.0842 | 14370.5ms | 2.3k tok/s
+step 1710/3000 | loss 0.1175 | 14220.4ms | 2.3k tok/s
+step 1720/3000 | loss 0.2871 | 12016.2ms | 2.7k tok/s
+step 1730/3000 | loss 0.1168 | 13185.8ms | 2.5k tok/s
+step 1740/3000 | loss 0.3269 | 14159.1ms | 2.3k tok/s
+
+[EVAL] step 1750: train loss 0.2256, val loss 0.7349, mem 6.37GB
+
+step 1750/3000 | loss 0.2921 | 59235.4ms | 0.6k tok/s
+step 1760/3000 | loss 0.0751 | 14130.9ms | 2.3k tok/s
+step 1770/3000 | loss 0.3534 | 14168.2ms | 2.3k tok/s
+step 1780/3000 | loss 0.2658 | 12121.6ms | 2.7k tok/s
+step 1790/3000 | loss 0.4248 | 14159.1ms | 2.3k tok/s
+step 1800/3000 | loss 0.1332 | 12158.2ms | 2.7k tok/s
+step 1810/3000 | loss 0.3816 | 14164.3ms | 2.3k tok/s
+step 1820/3000 | loss 0.2609 | 12252.0ms | 2.7k tok/s
+step 1830/3000 | loss 0.5601 | 14146.7ms | 2.3k tok/s
+step 1840/3000 | loss 0.4737 | 12241.8ms | 2.7k tok/s
+step 1850/3000 | loss 0.0800 | 14172.1ms | 2.3k tok/s
+step 1860/3000 | loss 0.0447 | 12153.3ms | 2.7k tok/s
+step 1870/3000 | loss 0.1363 | 14141.3ms | 2.3k tok/s
+step 1880/3000 | loss 0.1193 | 12232.3ms | 2.7k tok/s
+step 1890/3000 | loss 0.2567 | 14157.5ms | 2.3k tok/s
+step 1900/3000 | loss 0.1654 | 12192.3ms | 2.7k tok/s
+step 1910/3000 | loss 0.0967 | 14187.0ms | 2.3k tok/s
+step 1920/3000 | loss 0.1406 | 12166.4ms | 2.7k tok/s
+step 1930/3000 | loss 0.3530 | 14112.5ms | 2.3k tok/s
+step 1940/3000 | loss 0.2175 | 12807.1ms | 2.6k tok/s
+step 1950/3000 | loss 0.2589 | 14140.4ms | 2.3k tok/s
+step 1960/3000 | loss 0.1240 | 14167.6ms | 2.3k tok/s
+step 1970/3000 | loss 0.0398 | 12145.5ms | 2.7k tok/s
+step 1980/3000 | loss 0.2482 | 14137.0ms | 2.3k tok/s
+step 1990/3000 | loss 0.0306 | 12335.8ms | 2.7k tok/s
+
+[EVAL] step 2000: train loss 0.2188, val loss 0.6712, mem 6.37GB
+
+step 2000/3000 | loss 0.2357 | 60718.7ms | 0.5k tok/s
+step 2010/3000 | loss 0.2378 | 13344.9ms | 2.5k tok/s
+step 2020/3000 | loss 0.1185 | 12969.6ms | 2.5k tok/s
+step 2030/3000 | loss 0.2522 | 14192.0ms | 2.3k tok/s
+step 2040/3000 | loss 0.3167 | 12100.0ms | 2.7k tok/s
+step 2050/3000 | loss 0.2954 | 14111.1ms | 2.3k tok/s
+step 2060/3000 | loss 0.2583 | 12237.4ms | 2.7k tok/s
+step 2070/3000 | loss 0.0614 | 14142.4ms | 2.3k tok/s
+step 2080/3000 | loss 0.0868 | 12193.8ms | 2.7k tok/s
+step 2090/3000 | loss 0.0940 | 14147.0ms | 2.3k tok/s
+step 2100/3000 | loss 0.2020 | 12217.6ms | 2.7k tok/s
+step 2110/3000 | loss 0.4561 | 14149.0ms | 2.3k tok/s
+step 2120/3000 | loss 0.3509 | 12177.4ms | 2.7k tok/s
+step 2130/3000 | loss 0.1147 | 14131.2ms | 2.3k tok/s
+step 2140/3000 | loss 0.1060 | 12195.9ms | 2.7k tok/s
+step 2150/3000 | loss 0.3611 | 14222.7ms | 2.3k tok/s
+step 2160/3000 | loss 0.2223 | 12126.0ms | 2.7k tok/s
+step 2170/3000 | loss 0.2136 | 14125.1ms | 2.3k tok/s
+step 2180/3000 | loss 0.2007 | 12279.6ms | 2.7k tok/s
+step 2190/3000 | loss 0.2148 | 14167.4ms | 2.3k tok/s
+step 2200/3000 | loss 0.1721 | 14145.6ms | 2.3k tok/s
+step 2210/3000 | loss 0.0141 | 12149.0ms | 2.7k tok/s
+step 2220/3000 | loss 0.2191 | 14115.1ms | 2.3k tok/s
+step 2230/3000 | loss 0.1128 | 12222.6ms | 2.7k tok/s
+step 2240/3000 | loss 0.1624 | 15089.7ms | 2.2k tok/s
+
+[EVAL] step 2250: train loss 0.1853, val loss 0.6386, mem 6.37GB
+
+step 2250/3000 | loss 0.2049 | 59311.9ms | 0.6k tok/s
+step 2260/3000 | loss 0.0471 | 14129.3ms | 2.3k tok/s
+step 2270/3000 | loss 0.1459 | 13441.7ms | 2.4k tok/s
+step 2280/3000 | loss 0.1614 | 14453.3ms | 2.3k tok/s
+step 2290/3000 | loss 0.1316 | 14956.2ms | 2.2k tok/s
+step 2300/3000 | loss 0.0544 | 12255.2ms | 2.7k tok/s
+step 2310/3000 | loss 0.1539 | 14191.4ms | 2.3k tok/s
+step 2320/3000 | loss 0.2301 | 12259.2ms | 2.7k tok/s
+step 2330/3000 | loss 0.1479 | 14272.7ms | 2.3k tok/s
+step 2340/3000 | loss 0.2884 | 12197.0ms | 2.7k tok/s
+step 2350/3000 | loss 0.0224 | 14181.6ms | 2.3k tok/s
+step 2360/3000 | loss 0.1760 | 12249.4ms | 2.7k tok/s
+step 2370/3000 | loss 0.2494 | 14222.4ms | 2.3k tok/s
+step 2380/3000 | loss 0.0945 | 12221.0ms | 2.7k tok/s
+step 2390/3000 | loss 0.2839 | 14232.3ms | 2.3k tok/s
+step 2400/3000 | loss 0.0171 | 12566.4ms | 2.6k tok/s
+step 2410/3000 | loss 0.2644 | 14182.6ms | 2.3k tok/s
+step 2420/3000 | loss 0.1210 | 12296.5ms | 2.7k tok/s
+step 2430/3000 | loss 0.2011 | 14225.0ms | 2.3k tok/s
+step 2440/3000 | loss 0.1068 | 12189.6ms | 2.7k tok/s
+step 2450/3000 | loss 0.1533 | 14142.3ms | 2.3k tok/s
+step 2460/3000 | loss 0.0052 | 12283.4ms | 2.7k tok/s
+step 2470/3000 | loss 0.0315 | 14177.0ms | 2.3k tok/s
+step 2480/3000 | loss 0.1650 | 14222.3ms | 2.3k tok/s
+step 2490/3000 | loss 0.1658 | 12229.1ms | 2.7k tok/s
+
+[EVAL] step 2500: train loss 0.1795, val loss 0.5805, mem 6.37GB
+
+step 2500/3000 | loss 0.0587 | 61117.0ms | 0.5k tok/s
+step 2510/3000 | loss 0.2780 | 12311.1ms | 2.7k tok/s
+step 2520/3000 | loss 0.2057 | 14157.9ms | 2.3k tok/s
+step 2530/3000 | loss 0.2062 | 12347.4ms | 2.7k tok/s
+step 2540/3000 | loss 0.1301 | 14228.4ms | 2.3k tok/s
+step 2550/3000 | loss 0.2679 | 13440.6ms | 2.4k tok/s
+step 2560/3000 | loss 0.1973 | 13079.5ms | 2.5k tok/s
+step 2570/3000 | loss 0.0901 | 14259.0ms | 2.3k tok/s
+step 2580/3000 | loss 0.1482 | 12161.1ms | 2.7k tok/s
+step 2590/3000 | loss 0.1247 | 14140.8ms | 2.3k tok/s
+step 2600/3000 | loss 0.0108 | 12163.1ms | 2.7k tok/s
+step 2610/3000 | loss 0.1609 | 14154.7ms | 2.3k tok/s
+step 2620/3000 | loss 0.0803 | 12220.2ms | 2.7k tok/s
+step 2630/3000 | loss 0.0120 | 14152.4ms | 2.3k tok/s
+step 2640/3000 | loss 0.1454 | 12192.6ms | 2.7k tok/s
+step 2650/3000 | loss 0.1769 | 14123.1ms | 2.3k tok/s
+step 2660/3000 | loss 0.0303 | 12244.4ms | 2.7k tok/s
+step 2670/3000 | loss 0.1449 | 14113.8ms | 2.3k tok/s
+step 2680/3000 | loss 0.1019 | 12221.2ms | 2.7k tok/s
+step 2690/3000 | loss 0.1679 | 14177.3ms | 2.3k tok/s
+step 2700/3000 | loss 0.1355 | 12180.1ms | 2.7k tok/s
+step 2710/3000 | loss 0.0663 | 14124.4ms | 2.3k tok/s
+step 2720/3000 | loss 0.0105 | 12215.3ms | 2.7k tok/s
+step 2730/3000 | loss 0.1557 | 14119.7ms | 2.3k tok/s
+step 2740/3000 | loss 0.1710 | 14182.4ms | 2.3k tok/s
+
+[EVAL] step 2750: train loss 0.1910, val loss 0.5588, mem 6.37GB
+
+step 2750/3000 | loss 0.0241 | 58856.6ms | 0.6k tok/s
+step 2760/3000 | loss 0.0409 | 14175.0ms | 2.3k tok/s
+step 2770/3000 | loss 0.0292 | 12158.8ms | 2.7k tok/s
+step 2780/3000 | loss 0.0204 | 14117.7ms | 2.3k tok/s
+step 2790/3000 | loss 0.1717 | 13405.1ms | 2.4k tok/s
+step 2800/3000 | loss 0.1753 | 13068.7ms | 2.5k tok/s
+step 2810/3000 | loss 0.2799 | 14260.6ms | 2.3k tok/s
+step 2820/3000 | loss 0.1253 | 12279.9ms | 2.7k tok/s
+step 2830/3000 | loss 0.1023 | 14290.8ms | 2.3k tok/s
+step 2840/3000 | loss 0.1609 | 12238.9ms | 2.7k tok/s
+step 2850/3000 | loss 0.1037 | 14201.8ms | 2.3k tok/s
+step 2860/3000 | loss 0.1113 | 12291.8ms | 2.7k tok/s
+step 2870/3000 | loss 0.2986 | 14239.5ms | 2.3k tok/s
+step 2880/3000 | loss 0.1868 | 12227.4ms | 2.7k tok/s
+step 2890/3000 | loss 0.4305 | 14302.0ms | 2.3k tok/s
+step 2900/3000 | loss 0.1069 | 12235.6ms | 2.7k tok/s
+step 2910/3000 | loss 0.0764 | 14229.9ms | 2.3k tok/s
+step 2920/3000 | loss 0.1318 | 12291.6ms | 2.7k tok/s
+step 2930/3000 | loss 0.2631 | 14223.0ms | 2.3k tok/s
+step 2940/3000 | loss 0.2398 | 12200.4ms | 2.7k tok/s
+step 2950/3000 | loss 0.2235 | 14180.3ms | 2.3k tok/s
+step 2960/3000 | loss 0.1589 | 12283.3ms | 2.7k tok/s
+step 2970/3000 | loss 0.1682 | 14179.2ms | 2.3k tok/s
+step 2980/3000 | loss 0.0708 | 12293.0ms | 2.7k tok/s
+step 2990/3000 | loss 0.1755 | 14204.2ms | 2.3k tok/s
+Running final evaluation...
+
+[EVAL] step 3000: train loss 0.1489, val loss 0.5354, mem 6.37GB
+
+Training finished. Best Val Loss: 0.5354
+
+[5/5] Training XL...
+Vocab size: 99
+number of parameters: 151.12M
+Starting training xl...
+Config: Physical Batch=4, GradAccum=8, LR=0.00015
+
+[EVAL] step 0: train loss 4.7671, val loss 4.7871, mem 0.83GB
+
+step 0/3000 | loss 4.6641 | 40197.8ms | 0.8k tok/s
+step 10/3000 | loss 2.6287 | 21810.9ms | 1.5k tok/s
+step 20/3000 | loss 1.8128 | 23847.4ms | 1.4k tok/s
+step 30/3000 | loss 1.0059 | 21744.2ms | 1.5k tok/s
+step 40/3000 | loss 0.7842 | 21856.5ms | 1.5k tok/s
+step 50/3000 | loss 0.3482 | 21881.0ms | 1.5k tok/s
+step 60/3000 | loss 0.5111 | 21836.9ms | 1.5k tok/s
+step 70/3000 | loss 0.8884 | 23804.4ms | 1.4k tok/s
+step 80/3000 | loss 0.7657 | 21861.2ms | 1.5k tok/s
+step 90/3000 | loss 0.9563 | 21825.4ms | 1.5k tok/s
+step 100/3000 | loss 0.6640 | 21853.6ms | 1.5k tok/s
+step 110/3000 | loss 0.6372 | 23789.8ms | 1.4k tok/s
+step 120/3000 | loss 0.8496 | 21868.5ms | 1.5k tok/s
+step 130/3000 | loss 0.4067 | 21819.8ms | 1.5k tok/s
+step 140/3000 | loss 1.1716 | 21773.1ms | 1.5k tok/s
+step 150/3000 | loss 0.3376 | 21832.2ms | 1.5k tok/s
+step 160/3000 | loss 1.0782 | 23831.1ms | 1.4k tok/s
+step 170/3000 | loss 0.8076 | 21731.1ms | 1.5k tok/s
+step 180/3000 | loss 0.8585 | 21831.8ms | 1.5k tok/s
+step 190/3000 | loss 1.0979 | 21840.7ms | 1.5k tok/s
+step 200/3000 | loss 0.7350 | 21805.3ms | 1.5k tok/s
+step 210/3000 | loss 0.3197 | 23834.5ms | 1.4k tok/s
+step 220/3000 | loss 0.5498 | 21920.0ms | 1.5k tok/s
+step 230/3000 | loss 0.6942 | 21860.7ms | 1.5k tok/s
+step 240/3000 | loss 1.3389 | 21920.4ms | 1.5k tok/s
+
+[EVAL] step 250: train loss 0.6807, val loss 1.5555, mem 5.78GB
+
+step 250/3000 | loss 0.3217 | 66026.7ms | 0.5k tok/s
+step 260/3000 | loss 0.8569 | 21803.9ms | 1.5k tok/s
+step 270/3000 | loss 0.1145 | 21821.7ms | 1.5k tok/s
+step 280/3000 | loss 1.3283 | 23799.9ms | 1.4k tok/s
+step 290/3000 | loss 0.3383 | 21825.8ms | 1.5k tok/s
+step 300/3000 | loss 0.5891 | 21852.0ms | 1.5k tok/s
+step 310/3000 | loss 1.0498 | 21775.5ms | 1.5k tok/s
+step 320/3000 | loss 0.7263 | 21849.8ms | 1.5k tok/s
+step 330/3000 | loss 0.1359 | 23765.5ms | 1.4k tok/s
+step 340/3000 | loss 0.9005 | 21905.9ms | 1.5k tok/s
+step 350/3000 | loss 0.1386 | 21807.8ms | 1.5k tok/s
+step 360/3000 | loss 0.4423 | 21809.0ms | 1.5k tok/s
+step 370/3000 | loss 0.6144 | 21824.0ms | 1.5k tok/s
+step 380/3000 | loss 0.4938 | 23761.5ms | 1.4k tok/s
+step 390/3000 | loss 0.4007 | 21830.9ms | 1.5k tok/s
+step 400/3000 | loss 0.3725 | 21836.1ms | 1.5k tok/s
+step 410/3000 | loss 0.5121 | 21852.4ms | 1.5k tok/s
+step 420/3000 | loss 0.5899 | 21861.5ms | 1.5k tok/s
+step 430/3000 | loss 0.7146 | 23820.7ms | 1.4k tok/s
+step 440/3000 | loss 0.4474 | 21850.6ms | 1.5k tok/s
+step 450/3000 | loss 0.7253 | 21775.3ms | 1.5k tok/s
+step 460/3000 | loss 0.5779 | 21875.4ms | 1.5k tok/s
+step 470/3000 | loss 0.3777 | 21843.4ms | 1.5k tok/s
+step 480/3000 | loss 0.2376 | 23966.6ms | 1.4k tok/s
+step 490/3000 | loss 0.7546 | 21664.6ms | 1.5k tok/s
+
+[EVAL] step 500: train loss 0.5469, val loss 1.3626, mem 5.78GB
+
+step 500/3000 | loss 0.4838 | 64400.6ms | 0.5k tok/s
+step 510/3000 | loss 0.2982 | 21826.9ms | 1.5k tok/s
+step 520/3000 | loss 0.2141 | 21734.8ms | 1.5k tok/s
+step 530/3000 | loss 0.2724 | 21870.3ms | 1.5k tok/s
+step 540/3000 | loss 0.8550 | 21896.9ms | 1.5k tok/s
+step 550/3000 | loss 0.3074 | 23873.1ms | 1.4k tok/s
+step 560/3000 | loss 0.3439 | 21835.8ms | 1.5k tok/s
+step 570/3000 | loss 0.1466 | 23172.9ms | 1.4k tok/s
+step 580/3000 | loss 0.5533 | 23218.9ms | 1.4k tok/s
+step 590/3000 | loss 0.1593 | 21842.3ms | 1.5k tok/s
+step 600/3000 | loss 0.8642 | 23781.8ms | 1.4k tok/s
+step 610/3000 | loss 0.3821 | 21896.7ms | 1.5k tok/s
+step 620/3000 | loss 0.2025 | 21863.7ms | 1.5k tok/s
+step 630/3000 | loss 0.4930 | 22037.2ms | 1.5k tok/s
+step 640/3000 | loss 0.2811 | 21788.4ms | 1.5k tok/s
+step 650/3000 | loss 0.6175 | 23733.0ms | 1.4k tok/s
+step 660/3000 | loss 0.8139 | 21772.2ms | 1.5k tok/s
+step 670/3000 | loss 0.6887 | 21779.6ms | 1.5k tok/s
+step 680/3000 | loss 0.4145 | 21763.4ms | 1.5k tok/s
+step 690/3000 | loss 0.7692 | 21785.1ms | 1.5k tok/s
+step 700/3000 | loss 0.2090 | 23775.5ms | 1.4k tok/s
+step 710/3000 | loss 0.9159 | 21743.6ms | 1.5k tok/s
+step 720/3000 | loss 0.8577 | 21760.1ms | 1.5k tok/s
+step 730/3000 | loss 0.1908 | 21797.8ms | 1.5k tok/s
+step 740/3000 | loss 0.5637 | 21764.2ms | 1.5k tok/s
+
+[EVAL] step 750: train loss 0.4509, val loss 1.2618, mem 5.78GB
+
+step 750/3000 | loss 0.3239 | 63915.0ms | 0.5k tok/s
+step 760/3000 | loss 0.5242 | 21755.4ms | 1.5k tok/s
+step 770/3000 | loss 0.2576 | 23717.3ms | 1.4k tok/s
+step 780/3000 | loss 0.2394 | 21802.1ms | 1.5k tok/s
+step 790/3000 | loss 0.2530 | 21814.4ms | 1.5k tok/s
+step 800/3000 | loss 0.0690 | 21708.7ms | 1.5k tok/s
+step 810/3000 | loss 0.3897 | 21820.0ms | 1.5k tok/s
+step 820/3000 | loss 0.6142 | 23685.3ms | 1.4k tok/s
+step 830/3000 | loss 0.7627 | 22526.5ms | 1.5k tok/s
+step 840/3000 | loss 0.0295 | 23175.0ms | 1.4k tok/s
+step 850/3000 | loss 0.5530 | 22028.6ms | 1.5k tok/s
+step 860/3000 | loss 0.4905 | 21764.1ms | 1.5k tok/s
+step 870/3000 | loss 0.6193 | 23785.3ms | 1.4k tok/s
+step 880/3000 | loss 0.2964 | 21695.9ms | 1.5k tok/s
+step 890/3000 | loss 0.4243 | 21813.2ms | 1.5k tok/s
+step 900/3000 | loss 0.2105 | 21743.0ms | 1.5k tok/s
+step 910/3000 | loss 0.0064 | 21804.1ms | 1.5k tok/s
+step 920/3000 | loss 0.7921 | 23741.8ms | 1.4k tok/s
+step 930/3000 | loss 0.4404 | 21826.7ms | 1.5k tok/s
+step 940/3000 | loss 0.5140 | 21771.2ms | 1.5k tok/s
+step 950/3000 | loss 0.2969 | 21783.0ms | 1.5k tok/s
+step 960/3000 | loss 0.4934 | 23755.6ms | 1.4k tok/s
+step 970/3000 | loss 0.3574 | 21837.3ms | 1.5k tok/s
+step 980/3000 | loss 0.1171 | 21729.3ms | 1.5k tok/s
+step 990/3000 | loss 0.2398 | 21877.9ms | 1.5k tok/s
+
+[EVAL] step 1000: train loss 0.3309, val loss 1.0049, mem 5.78GB
+
+step 1000/3000 | loss 0.0713 | 64069.4ms | 0.5k tok/s
+step 1010/3000 | loss 0.2113 | 21691.2ms | 1.5k tok/s
+step 1020/3000 | loss 0.6959 | 21741.9ms | 1.5k tok/s
+step 1030/3000 | loss 0.0109 | 23860.5ms | 1.4k tok/s
+step 1040/3000 | loss 0.2550 | 21711.8ms | 1.5k tok/s
+step 1050/3000 | loss 0.8630 | 21854.9ms | 1.5k tok/s
+step 1060/3000 | loss 0.1208 | 21750.2ms | 1.5k tok/s
+step 1070/3000 | loss 0.6730 | 21798.1ms | 1.5k tok/s
+step 1080/3000 | loss 0.6820 | 23756.9ms | 1.4k tok/s
+step 1090/3000 | loss 0.3678 | 21818.7ms | 1.5k tok/s
+step 1100/3000 | loss 0.0153 | 21765.9ms | 1.5k tok/s
+step 1110/3000 | loss 0.1348 | 21791.6ms | 1.5k tok/s
+step 1120/3000 | loss 0.6465 | 21781.4ms | 1.5k tok/s
+step 1130/3000 | loss 0.0045 | 23843.9ms | 1.4k tok/s
+step 1140/3000 | loss 0.6453 | 21627.9ms | 1.5k tok/s
+step 1150/3000 | loss 0.0126 | 21786.3ms | 1.5k tok/s
+step 1160/3000 | loss 0.2970 | 21777.2ms | 1.5k tok/s
+step 1170/3000 | loss 0.2394 | 21799.3ms | 1.5k tok/s
+step 1180/3000 | loss 0.0806 | 23695.3ms | 1.4k tok/s
+step 1190/3000 | loss 0.4426 | 21825.4ms | 1.5k tok/s
+step 1200/3000 | loss 0.4779 | 21715.8ms | 1.5k tok/s
+step 1210/3000 | loss 0.3748 | 21718.1ms | 1.5k tok/s
+step 1220/3000 | loss 0.2809 | 21827.7ms | 1.5k tok/s
+step 1230/3000 | loss 0.1882 | 23786.4ms | 1.4k tok/s
+step 1240/3000 | loss 0.0277 | 21683.8ms | 1.5k tok/s
+
+[EVAL] step 1250: train loss 0.2678, val loss 0.8868, mem 5.78GB
+
+step 1250/3000 | loss 0.3418 | 64223.9ms | 0.5k tok/s
+step 1260/3000 | loss 0.7445 | 21684.7ms | 1.5k tok/s
+step 1270/3000 | loss 0.0737 | 21733.4ms | 1.5k tok/s
+step 1280/3000 | loss 0.1003 | 21762.4ms | 1.5k tok/s
+step 1290/3000 | loss 0.0089 | 21851.2ms | 1.5k tok/s
+step 1300/3000 | loss 0.7330 | 23803.1ms | 1.4k tok/s
+step 1310/3000 | loss 0.0673 | 21859.7ms | 1.5k tok/s
+step 1320/3000 | loss 0.3680 | 21668.2ms | 1.5k tok/s
+step 1330/3000 | loss 0.1145 | 21803.6ms | 1.5k tok/s
+step 1340/3000 | loss 0.1439 | 21769.7ms | 1.5k tok/s
+step 1350/3000 | loss 0.3137 | 23830.9ms | 1.4k tok/s
+step 1360/3000 | loss 0.2663 | 21721.7ms | 1.5k tok/s
+step 1370/3000 | loss 0.0705 | 21809.9ms | 1.5k tok/s
+step 1380/3000 | loss 0.0037 | 21778.3ms | 1.5k tok/s
+step 1390/3000 | loss 0.2723 | 23758.9ms | 1.4k tok/s
+step 1400/3000 | loss 0.3905 | 21803.5ms | 1.5k tok/s
+step 1410/3000 | loss 0.1545 | 21831.8ms | 1.5k tok/s
+step 1420/3000 | loss 0.2836 | 21808.7ms | 1.5k tok/s
+step 1430/3000 | loss 0.2201 | 21826.2ms | 1.5k tok/s
+step 1440/3000 | loss 0.0254 | 23734.3ms | 1.4k tok/s
+step 1450/3000 | loss 0.0027 | 21840.6ms | 1.5k tok/s
+step 1460/3000 | loss 0.0890 | 21731.9ms | 1.5k tok/s
+step 1470/3000 | loss 0.1952 | 21815.4ms | 1.5k tok/s
+step 1480/3000 | loss 0.1373 | 21803.2ms | 1.5k tok/s
+step 1490/3000 | loss 0.2387 | 23846.4ms | 1.4k tok/s
+
+[EVAL] step 1500: train loss 0.2176, val loss 0.7959, mem 5.78GB
+
+step 1500/3000 | loss 0.1844 | 61831.0ms | 0.5k tok/s
+step 1510/3000 | loss 0.1580 | 23716.4ms | 1.4k tok/s
+step 1520/3000 | loss 0.0142 | 21775.4ms | 1.5k tok/s
+step 1530/3000 | loss 0.2411 | 21709.9ms | 1.5k tok/s
+step 1540/3000 | loss 0.4589 | 21731.1ms | 1.5k tok/s
+step 1550/3000 | loss 0.3304 | 21770.2ms | 1.5k tok/s
+step 1560/3000 | loss 0.4555 | 23734.5ms | 1.4k tok/s
+step 1570/3000 | loss 0.2151 | 21852.4ms | 1.5k tok/s
+step 1580/3000 | loss 0.2656 | 21611.1ms | 1.5k tok/s
+step 1590/3000 | loss 0.0066 | 21773.1ms | 1.5k tok/s
+step 1600/3000 | loss 0.1138 | 21723.0ms | 1.5k tok/s
+step 1610/3000 | loss 0.0064 | 23662.3ms | 1.4k tok/s
+step 1620/3000 | loss 0.2421 | 21781.2ms | 1.5k tok/s
+step 1630/3000 | loss 0.2258 | 21678.1ms | 1.5k tok/s
+step 1640/3000 | loss 0.0833 | 21799.0ms | 1.5k tok/s
+step 1650/3000 | loss 0.0081 | 21729.8ms | 1.5k tok/s
+step 1660/3000 | loss 0.6909 | 23791.6ms | 1.4k tok/s
+step 1670/3000 | loss 0.0642 | 21745.3ms | 1.5k tok/s
+step 1680/3000 | loss 0.0955 | 21683.2ms | 1.5k tok/s
+step 1690/3000 | loss 0.2135 | 21753.9ms | 1.5k tok/s
+step 1700/3000 | loss 0.1371 | 23662.8ms | 1.4k tok/s
+step 1710/3000 | loss 0.1567 | 21862.2ms | 1.5k tok/s
+step 1720/3000 | loss 0.2504 | 21645.6ms | 1.5k tok/s
+step 1730/3000 | loss 0.3121 | 21735.4ms | 1.5k tok/s
+step 1740/3000 | loss 0.0060 | 21693.5ms | 1.5k tok/s
+
+[EVAL] step 1750: train loss 0.2234, val loss 0.7093, mem 5.78GB
+
+step 1750/3000 | loss 0.3282 | 64038.5ms | 0.5k tok/s
+step 1760/3000 | loss 0.1556 | 21752.5ms | 1.5k tok/s
+step 1770/3000 | loss 0.1537 | 23691.6ms | 1.4k tok/s
+step 1780/3000 | loss 0.3572 | 21804.0ms | 1.5k tok/s
+step 1790/3000 | loss 0.0066 | 21684.7ms | 1.5k tok/s
+step 1800/3000 | loss 0.1149 | 21784.6ms | 1.5k tok/s
+step 1810/3000 | loss 0.1959 | 21771.2ms | 1.5k tok/s
+step 1820/3000 | loss 0.1118 | 23722.6ms | 1.4k tok/s
+step 1830/3000 | loss 0.2542 | 21752.2ms | 1.5k tok/s
+step 1840/3000 | loss 0.3564 | 21747.1ms | 1.5k tok/s
+step 1850/3000 | loss 0.0087 | 21735.1ms | 1.5k tok/s
+step 1860/3000 | loss 0.0344 | 21749.1ms | 1.5k tok/s
+step 1870/3000 | loss 0.1276 | 23718.7ms | 1.4k tok/s
+step 1880/3000 | loss 0.3880 | 21775.2ms | 1.5k tok/s
+step 1890/3000 | loss 0.5473 | 21677.8ms | 1.5k tok/s
+step 1900/3000 | loss 0.1737 | 21756.4ms | 1.5k tok/s
+step 1910/3000 | loss 0.2391 | 21764.8ms | 1.5k tok/s
+step 1920/3000 | loss 0.3462 | 23673.2ms | 1.4k tok/s
+step 1930/3000 | loss 0.3128 | 21743.7ms | 1.5k tok/s
+step 1940/3000 | loss 0.3660 | 21801.8ms | 1.5k tok/s
+step 1950/3000 | loss 0.3122 | 21772.4ms | 1.5k tok/s
+step 1960/3000 | loss 0.3191 | 23722.1ms | 1.4k tok/s
+step 1970/3000 | loss 0.1082 | 21784.2ms | 1.5k tok/s
+step 1980/3000 | loss 0.0344 | 21771.0ms | 1.5k tok/s
+step 1990/3000 | loss 0.0050 | 21711.8ms | 1.5k tok/s
+
+[EVAL] step 2000: train loss 0.1904, val loss 0.6300, mem 5.78GB
+
+step 2000/3000 | loss 0.1631 | 64130.1ms | 0.5k tok/s
+step 2010/3000 | loss 0.2536 | 21618.8ms | 1.5k tok/s
+step 2020/3000 | loss 0.3040 | 21767.0ms | 1.5k tok/s
+step 2030/3000 | loss 0.0045 | 21812.6ms | 1.5k tok/s
+step 2040/3000 | loss 0.0079 | 23812.7ms | 1.4k tok/s
+step 2050/3000 | loss 0.1640 | 21766.3ms | 1.5k tok/s
+step 2060/3000 | loss 0.1739 | 21778.4ms | 1.5k tok/s
+step 2070/3000 | loss 0.4325 | 21762.8ms | 1.5k tok/s
+step 2080/3000 | loss 0.0065 | 23744.5ms | 1.4k tok/s
+step 2090/3000 | loss 0.0051 | 21799.4ms | 1.5k tok/s
+step 2100/3000 | loss 0.0633 | 21664.3ms | 1.5k tok/s
+step 2110/3000 | loss 0.3552 | 21748.3ms | 1.5k tok/s
+step 2120/3000 | loss 0.0822 | 21719.1ms | 1.5k tok/s
+step 2130/3000 | loss 0.1621 | 23806.4ms | 1.4k tok/s
+step 2140/3000 | loss 0.0069 | 21712.5ms | 1.5k tok/s
+step 2150/3000 | loss 0.0170 | 21781.1ms | 1.5k tok/s
+step 2160/3000 | loss 0.3673 | 21766.9ms | 1.5k tok/s
+step 2170/3000 | loss 0.1927 | 21782.1ms | 1.5k tok/s
+step 2180/3000 | loss 0.2273 | 23744.6ms | 1.4k tok/s
+step 2190/3000 | loss 0.0662 | 21720.4ms | 1.5k tok/s
+step 2200/3000 | loss 0.1337 | 21756.9ms | 1.5k tok/s
+step 2210/3000 | loss 0.0831 | 21704.2ms | 1.5k tok/s
+step 2220/3000 | loss 0.3656 | 21741.2ms | 1.5k tok/s
+step 2230/3000 | loss 0.4053 | 23771.3ms | 1.4k tok/s
+step 2240/3000 | loss 0.1863 | 21745.6ms | 1.5k tok/s
+
+[EVAL] step 2250: train loss 0.1864, val loss 0.5917, mem 5.78GB
+
+step 2250/3000 | loss 0.2611 | 64022.4ms | 0.5k tok/s
+step 2260/3000 | loss 0.4358 | 21662.6ms | 1.5k tok/s
+step 2270/3000 | loss 0.0047 | 21696.8ms | 1.5k tok/s
+step 2280/3000 | loss 0.0037 | 21766.2ms | 1.5k tok/s
+step 2290/3000 | loss 0.1228 | 21752.6ms | 1.5k tok/s
+step 2300/3000 | loss 0.0330 | 23769.9ms | 1.4k tok/s
+step 2310/3000 | loss 0.2080 | 21751.4ms | 1.5k tok/s
+step 2320/3000 | loss 0.5279 | 21698.0ms | 1.5k tok/s
+step 2330/3000 | loss 0.2119 | 21778.3ms | 1.5k tok/s
+step 2340/3000 | loss 0.0767 | 21765.3ms | 1.5k tok/s
+step 2350/3000 | loss 0.3583 | 23820.4ms | 1.4k tok/s
+step 2360/3000 | loss 0.3867 | 21665.7ms | 1.5k tok/s
+step 2370/3000 | loss 0.0655 | 21723.2ms | 1.5k tok/s
+step 2380/3000 | loss 0.1833 | 21710.4ms | 1.5k tok/s
+step 2390/3000 | loss 0.1916 | 23739.0ms | 1.4k tok/s
+step 2400/3000 | loss 0.0215 | 21758.3ms | 1.5k tok/s
+step 2410/3000 | loss 0.0339 | 21765.1ms | 1.5k tok/s
+step 2420/3000 | loss 0.0335 | 21757.4ms | 1.5k tok/s
+step 2430/3000 | loss 0.0169 | 21682.6ms | 1.5k tok/s
+step 2440/3000 | loss 0.0038 | 23745.4ms | 1.4k tok/s
+step 2450/3000 | loss 0.1688 | 21773.6ms | 1.5k tok/s
+step 2460/3000 | loss 0.1378 | 21654.0ms | 1.5k tok/s
+step 2470/3000 | loss 0.2925 | 21809.6ms | 1.5k tok/s
+step 2480/3000 | loss 0.2884 | 21759.1ms | 1.5k tok/s
+step 2490/3000 | loss 0.2401 | 23843.0ms | 1.4k tok/s
+
+[EVAL] step 2500: train loss 0.1757, val loss 0.5633, mem 5.78GB
+
+step 2500/3000 | loss 0.1543 | 61841.1ms | 0.5k tok/s
+step 2510/3000 | loss 0.1261 | 23853.3ms | 1.4k tok/s
+step 2520/3000 | loss 0.2777 | 21511.0ms | 1.5k tok/s
+step 2530/3000 | loss 0.0077 | 21757.6ms | 1.5k tok/s
+step 2540/3000 | loss 0.3566 | 21716.5ms | 1.5k tok/s
+step 2550/3000 | loss 0.2379 | 21694.3ms | 1.5k tok/s
+step 2560/3000 | loss 0.1548 | 23731.5ms | 1.4k tok/s
+step 2570/3000 | loss 0.0041 | 21747.6ms | 1.5k tok/s
+step 2580/3000 | loss 0.2027 | 21690.9ms | 1.5k tok/s
+step 2590/3000 | loss 0.0966 | 21766.2ms | 1.5k tok/s
+step 2600/3000 | loss 0.3453 | 21761.5ms | 1.5k tok/s
+step 2610/3000 | loss 0.0846 | 23746.0ms | 1.4k tok/s
+step 2620/3000 | loss 0.2198 | 21733.9ms | 1.5k tok/s
+step 2630/3000 | loss 0.0046 | 21789.9ms | 1.5k tok/s
+step 2640/3000 | loss 0.0162 | 21732.7ms | 1.5k tok/s
+step 2650/3000 | loss 0.0039 | 21814.0ms | 1.5k tok/s
+step 2660/3000 | loss 0.0156 | 23725.5ms | 1.4k tok/s
+step 2670/3000 | loss 0.2435 | 21725.2ms | 1.5k tok/s
+step 2680/3000 | loss 0.0690 | 21741.7ms | 1.5k tok/s
+step 2690/3000 | loss 0.0972 | 21770.3ms | 1.5k tok/s
+step 2700/3000 | loss 0.3360 | 23952.8ms | 1.4k tok/s
+step 2710/3000 | loss 0.0379 | 21864.1ms | 1.5k tok/s
+step 2720/3000 | loss 0.0398 | 21812.1ms | 1.5k tok/s
+step 2730/3000 | loss 0.1662 | 21847.4ms | 1.5k tok/s
+step 2740/3000 | loss 0.0032 | 21859.3ms | 1.5k tok/s
+
+[EVAL] step 2750: train loss 0.1668, val loss 0.5312, mem 5.78GB
+
+step 2750/3000 | loss 0.4685 | 64097.2ms | 0.5k tok/s
+step 2760/3000 | loss 0.2693 | 21763.5ms | 1.5k tok/s
+step 2770/3000 | loss 0.0665 | 21820.7ms | 1.5k tok/s
+step 2780/3000 | loss 0.0437 | 23813.1ms | 1.4k tok/s
+step 2790/3000 | loss 0.0046 | 21772.2ms | 1.5k tok/s
+step 2800/3000 | loss 0.0362 | 21796.8ms | 1.5k tok/s
+step 2810/3000 | loss 0.0181 | 21830.9ms | 1.5k tok/s
+step 2820/3000 | loss 0.0479 | 23939.5ms | 1.4k tok/s
+step 2830/3000 | loss 0.2053 | 21738.4ms | 1.5k tok/s
+step 2840/3000 | loss 0.1680 | 21880.4ms | 1.5k tok/s
+step 2850/3000 | loss 0.1185 | 21798.3ms | 1.5k tok/s
+step 2860/3000 | loss 0.0056 | 21838.6ms | 1.5k tok/s
+step 2870/3000 | loss 0.2891 | 23875.5ms | 1.4k tok/s
+step 2880/3000 | loss 0.0041 | 21889.7ms | 1.5k tok/s
+step 2890/3000 | loss 0.1854 | 21808.7ms | 1.5k tok/s
+step 2900/3000 | loss 0.0909 | 21866.3ms | 1.5k tok/s
+step 2910/3000 | loss 0.0886 | 21787.3ms | 1.5k tok/s
+step 2920/3000 | loss 0.0048 | 23849.6ms | 1.4k tok/s
+step 2930/3000 | loss 0.2302 | 21779.9ms | 1.5k tok/s
+step 2940/3000 | loss 0.0590 | 21817.0ms | 1.5k tok/s
+step 2950/3000 | loss 0.1317 | 21818.6ms | 1.5k tok/s
+step 2960/3000 | loss 0.3131 | 21798.8ms | 1.5k tok/s
+step 2970/3000 | loss 0.2292 | 23807.0ms | 1.4k tok/s
+step 2980/3000 | loss 0.0068 | 21851.5ms | 1.5k tok/s
+step 2990/3000 | loss 0.0702 | 21797.8ms | 1.5k tok/s
+Running final evaluation...
+
+[EVAL] step 3000: train loss 0.1648, val loss 0.5175, mem 5.78GB
+
+Training finished. Best Val Loss: 0.5175
+================================================================
+                 FULL EXPERIMENT COMPLETE
+================================================================

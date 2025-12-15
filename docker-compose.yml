@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  dev:
+    build: .
+    container_name: music_scaling_lab
+    volumes:
+      - .:/workspace
+    ports:
+      - "8888:8888"
+    shm_size: '8gb'
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+    command: jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''

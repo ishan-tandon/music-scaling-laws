@@ -1,0 +1,974 @@
+step 1550 | loss 0.4313
+step 1560 | loss 0.4814
+step 1570 | loss 0.5285
+step 1580 | loss 0.5387
+step 1590 | loss 0.4983
+step 1600 | loss 0.4936
+step 1610 | loss 0.3096
+step 1620 | loss 0.4209
+step 1630 | loss 0.5471
+step 1640 | loss 0.5330
+step 1650 | loss 0.5704
+step 1660 | loss 0.4356
+step 1670 | loss 0.3359
+step 1680 | loss 0.3783
+step 1690 | loss 0.4749
+step 1700 | loss 0.4091
+step 1710 | loss 0.3254
+step 1720 | loss 0.2951
+step 1730 | loss 0.2938
+step 1740 | loss 0.5392
+step 1750: train loss 0.4362, val loss 1.1530
+step 1750 | loss 0.4490
+step 1760 | loss 0.4238
+step 1770 | loss 0.3266
+step 1780 | loss 0.5803
+step 1790 | loss 0.3531
+step 1800 | loss 0.6365
+step 1810 | loss 0.5308
+step 1820 | loss 0.3543
+step 1830 | loss 0.5183
+step 1840 | loss 0.4313
+step 1850 | loss 0.3476
+step 1860 | loss 0.4235
+step 1870 | loss 0.3343
+step 1880 | loss 0.3018
+step 1890 | loss 0.4353
+step 1900 | loss 0.5664
+step 1910 | loss 0.3207
+step 1920 | loss 0.3382
+step 1930 | loss 0.5237
+step 1940 | loss 0.3661
+step 1950 | loss 0.4997
+step 1960 | loss 0.3153
+step 1970 | loss 0.4327
+step 1980 | loss 0.3891
+step 1990 | loss 0.4155
+step 2000: train loss 0.4175, val loss 1.1289
+step 2000 | loss 0.3663
+step 2010 | loss 0.4934
+step 2020 | loss 0.4152
+step 2030 | loss 0.4278
+step 2040 | loss 0.3483
+step 2050 | loss 0.4330
+step 2060 | loss 0.2959
+step 2070 | loss 0.6248
+step 2080 | loss 0.4058
+step 2090 | loss 0.3717
+step 2100 | loss 0.4045
+step 2110 | loss 0.5272
+step 2120 | loss 0.4384
+step 2130 | loss 0.3414
+step 2140 | loss 0.2754
+step 2150 | loss 0.3940
+step 2160 | loss 0.2382
+step 2170 | loss 0.5550
+step 2180 | loss 0.2426
+step 2190 | loss 0.5181
+step 2200 | loss 0.4329
+step 2210 | loss 0.3716
+step 2220 | loss 0.2781
+step 2230 | loss 0.3157
+step 2240 | loss 0.2961
+step 2250: train loss 0.4102, val loss 1.0836
+step 2250 | loss 0.4577
+step 2260 | loss 0.5471
+step 2270 | loss 0.3865
+step 2280 | loss 0.2973
+step 2290 | loss 0.3140
+step 2300 | loss 0.4047
+step 2310 | loss 0.2890
+step 2320 | loss 0.4094
+step 2330 | loss 0.4304
+step 2340 | loss 0.4230
+step 2350 | loss 0.3020
+step 2360 | loss 0.4287
+step 2370 | loss 0.3906
+step 2380 | loss 0.3846
+step 2390 | loss 0.3340
+step 2400 | loss 0.3131
+step 2410 | loss 0.2767
+step 2420 | loss 0.3303
+step 2430 | loss 0.3796
+step 2440 | loss 0.2869
+step 2450 | loss 0.4242
+step 2460 | loss 0.2776
+step 2470 | loss 0.2832
+step 2480 | loss 0.3241
+step 2490 | loss 0.4864
+step 2500: train loss 0.3844, val loss 1.0594
+step 2500 | loss 0.3563
+step 2510 | loss 0.3823
+step 2520 | loss 0.3628
+step 2530 | loss 0.3355
+step 2540 | loss 0.4034
+step 2550 | loss 0.4164
+step 2560 | loss 0.3673
+step 2570 | loss 0.2700
+step 2580 | loss 0.2594
+step 2590 | loss 0.4247
+step 2600 | loss 0.3910
+step 2610 | loss 0.4813
+step 2620 | loss 0.4906
+step 2630 | loss 0.3285
+step 2640 | loss 0.3481
+step 2650 | loss 0.3938
+step 2660 | loss 0.4029
+step 2670 | loss 0.5099
+step 2680 | loss 0.2914
+step 2690 | loss 0.5260
+step 2700 | loss 0.3341
+step 2710 | loss 0.3458
+step 2720 | loss 0.3849
+step 2730 | loss 0.3562
+step 2740 | loss 0.2422
+step 2750: train loss 0.3719, val loss 1.0336
+step 2750 | loss 0.2896
+step 2760 | loss 0.2966
+step 2770 | loss 0.2737
+step 2780 | loss 0.3740
+step 2790 | loss 0.3589
+step 2800 | loss 0.1927
+step 2810 | loss 0.4428
+step 2820 | loss 0.4452
+step 2830 | loss 0.4482
+step 2840 | loss 0.3761
+step 2850 | loss 0.3828
+step 2860 | loss 0.3202
+step 2870 | loss 0.3482
+step 2880 | loss 0.2942
+step 2890 | loss 0.4610
+step 2900 | loss 0.3807
+step 2910 | loss 0.3363
+step 2920 | loss 0.3964
+step 2930 | loss 0.2868
+step 2940 | loss 0.3547
+step 2950 | loss 0.3353
+step 2960 | loss 0.3364
+step 2970 | loss 0.2264
+step 2980 | loss 0.1970
+step 2990 | loss 0.4192
+--- Training Medium RNN ---
+Training RNN rnn_medium...
+step 0: train loss 4.5955, val loss 4.5953
+step 0 | loss 4.5957
+step 10 | loss 3.0809
+step 20 | loss 3.0883
+step 30 | loss 3.0998
+step 40 | loss 3.1512
+step 50 | loss 3.1753
+step 60 | loss 3.0690
+step 70 | loss 2.9859
+step 80 | loss 2.9781
+step 90 | loss 3.1159
+step 100 | loss 3.0304
+step 110 | loss 3.0599
+step 120 | loss 3.0047
+step 130 | loss 2.9882
+step 140 | loss 2.9889
+step 150 | loss 3.0511
+step 160 | loss 3.1570
+step 170 | loss 3.1365
+step 180 | loss 3.2142
+step 190 | loss 2.9910
+step 200 | loss 2.8545
+step 210 | loss 2.8046
+step 220 | loss 2.5731
+step 230 | loss 2.2594
+step 240 | loss 2.3769
+step 250: train loss 2.1023, val loss 2.9684
+step 250 | loss 1.9923
+step 260 | loss 1.8434
+step 270 | loss 1.7931
+step 280 | loss 1.9239
+step 290 | loss 1.5363
+step 300 | loss 1.8567
+step 310 | loss 1.4231
+step 320 | loss 1.5504
+step 330 | loss 1.4105
+step 340 | loss 1.3579
+step 350 | loss 1.5967
+step 360 | loss 1.1013
+step 370 | loss 1.5563
+step 380 | loss 1.5323
+step 390 | loss 1.2021
+step 400 | loss 1.4559
+step 410 | loss 0.9415
+step 420 | loss 1.2948
+step 430 | loss 1.3986
+step 440 | loss 1.3946
+step 450 | loss 1.3154
+step 460 | loss 1.1193
+step 470 | loss 1.2816
+step 480 | loss 1.0437
+step 490 | loss 1.3564
+step 500: train loss 1.0931, val loss 2.1413
+step 500 | loss 1.4644
+step 510 | loss 0.8798
+step 520 | loss 0.9926
+step 530 | loss 0.9823
+step 540 | loss 1.2412
+step 550 | loss 0.9010
+step 560 | loss 1.0721
+step 570 | loss 0.8690
+step 580 | loss 0.8160
+step 590 | loss 1.0155
+step 600 | loss 0.8828
+step 610 | loss 0.9313
+step 620 | loss 1.1105
+step 630 | loss 0.8547
+step 640 | loss 1.0722
+step 650 | loss 0.7997
+step 660 | loss 0.8992
+step 670 | loss 0.8625
+step 680 | loss 0.9964
+step 690 | loss 0.7549
+step 700 | loss 0.8516
+step 710 | loss 1.0111
+step 720 | loss 0.7010
+step 730 | loss 0.9538
+^CTraceback (most recent call last):
+  File "/workspace/src/train_rnn.py", line 117, in <module>
+    loss.backward()
+  File "/opt/conda/lib/python3.10/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/opt/conda/lib/python3.10/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev bash src/05_run_rnn.sh
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+--- Training Small RNN ---
+Training RNN rnn_small...
+step 0: train loss 4.5963, val loss 4.5951
+step 0 | loss 4.5959
+step 10 | loss 3.1273
+step 20 | loss 3.0850
+step 30 | loss 3.1101
+step 40 | loss 2.9828
+step 50 | loss 3.1472
+step 60 | loss 3.0051
+step 70 | loss 3.1885
+step 80 | loss 3.1352
+step 90 | loss 3.2201
+step 100 | loss 3.0453
+step 110 | loss 3.0627
+step 120 | loss 3.0585
+step 130 | loss 3.1144
+step 140 | loss 3.1949
+step 150 | loss 3.1119
+step 160 | loss 2.9471
+step 170 | loss 3.0310
+step 180 | loss 3.0060
+step 190 | loss 2.8940
+step 200 | loss 2.6414
+step 210 | loss 2.5039
+step 220 | loss 2.3843
+step 230 | loss 1.8929
+step 240 | loss 1.8739
+step 250: train loss 1.8405, val loss 2.7058
+step 250 | loss 2.0049
+step 260 | loss 1.6481
+step 270 | loss 1.7747
+step 280 | loss 1.6883
+step 290 | loss 1.6850
+step 300 | loss 1.4782
+step 310 | loss 1.5514
+step 320 | loss 1.4123
+step 330 | loss 1.6454
+step 340 | loss 1.2899
+step 350 | loss 1.5530
+step 360 | loss 1.3478
+step 370 | loss 1.1330
+step 380 | loss 1.3171
+step 390 | loss 1.3046
+step 400 | loss 1.2773
+step 410 | loss 1.0363
+step 420 | loss 0.9532
+step 430 | loss 1.1767
+step 440 | loss 1.1385
+step 450 | loss 1.0840
+step 460 | loss 1.2538
+step 470 | loss 0.9293
+step 480 | loss 1.0205
+step 490 | loss 0.8174
+step 500: train loss 0.9737, val loss 1.8113
+step 500 | loss 1.0790
+step 510 | loss 0.9612
+step 520 | loss 0.9106
+step 530 | loss 0.9014
+step 540 | loss 0.8640
+step 550 | loss 0.6229
+step 560 | loss 0.8590
+step 570 | loss 0.8665
+step 580 | loss 0.8265
+step 590 | loss 0.7536
+step 600 | loss 0.7167
+step 610 | loss 0.8822
+step 620 | loss 0.8268
+step 630 | loss 0.7429
+step 640 | loss 0.7510
+step 650 | loss 0.6251
+step 660 | loss 0.7658
+step 670 | loss 0.8292
+step 680 | loss 0.6976
+step 690 | loss 0.8056
+step 700 | loss 0.5233
+step 710 | loss 0.8583
+step 720 | loss 0.6587
+step 730 | loss 0.5638
+step 740 | loss 0.8329
+step 750: train loss 0.7051, val loss 1.5216
+step 750 | loss 0.6624
+step 760 | loss 0.7006
+step 770 | loss 0.7205
+step 780 | loss 0.6904
+step 790 | loss 0.4167
+step 800 | loss 0.6841
+step 810 | loss 0.5537
+step 820 | loss 0.6984
+step 830 | loss 0.7620
+step 840 | loss 0.7070
+step 850 | loss 0.6930
+step 860 | loss 0.6565
+step 870 | loss 0.6633
+step 880 | loss 0.6007
+step 890 | loss 0.4409
+step 900 | loss 0.4684
+step 910 | loss 0.6491
+step 920 | loss 0.6382
+step 930 | loss 0.6784
+step 940 | loss 0.3971
+step 950 | loss 0.6999
+step 960 | loss 0.5048
+step 970 | loss 0.7400
+step 980 | loss 0.6718
+step 990 | loss 0.5660
+step 1000: train loss 0.6008, val loss 1.4019
+step 1000 | loss 0.6476
+step 1010 | loss 0.5778
+step 1020 | loss 0.5332
+step 1030 | loss 0.5820
+step 1040 | loss 0.6137
+step 1050 | loss 0.5449
+step 1060 | loss 0.6540
+step 1070 | loss 0.5053
+step 1080 | loss 0.6030
+step 1090 | loss 0.5439
+step 1100 | loss 0.6997
+step 1110 | loss 0.5684
+step 1120 | loss 0.6833
+step 1130 | loss 0.5352
+step 1140 | loss 0.3984
+step 1150 | loss 0.3709
+step 1160 | loss 0.5458
+step 1170 | loss 0.6298
+step 1180 | loss 0.3177
+step 1190 | loss 0.4706
+step 1200 | loss 0.4006
+step 1210 | loss 0.4573
+step 1220 | loss 0.6222
+step 1230 | loss 0.5332
+step 1240 | loss 0.7529
+step 1250: train loss 0.5425, val loss 1.3175
+step 1250 | loss 0.6847
+step 1260 | loss 0.5841
+step 1270 | loss 0.5628
+step 1280 | loss 0.4855
+step 1290 | loss 0.2871
+step 1300 | loss 0.3128
+step 1310 | loss 0.4180
+step 1320 | loss 0.4834
+step 1330 | loss 0.4463
+step 1340 | loss 0.5902
+step 1350 | loss 0.4618
+step 1360 | loss 0.4891
+step 1370 | loss 0.3865
+step 1380 | loss 0.4414
+step 1390 | loss 0.4238
+step 1400 | loss 0.3621
+step 1410 | loss 0.7421
+step 1420 | loss 0.5033
+step 1430 | loss 0.5050
+step 1440 | loss 0.3377
+step 1450 | loss 0.4200
+step 1460 | loss 0.4769
+step 1470 | loss 0.3281
+step 1480 | loss 0.4022
+step 1490 | loss 0.7249
+step 1500: train loss 0.4822, val loss 1.2583
+step 1500 | loss 0.4094
+step 1510 | loss 0.5201
+step 1520 | loss 0.5033
+step 1530 | loss 0.5260
+step 1540 | loss 0.3264
+step 1550 | loss 0.4496
+step 1560 | loss 0.4043
+step 1570 | loss 0.4469
+step 1580 | loss 0.6434
+step 1590 | loss 0.6068
+step 1600 | loss 0.5058
+step 1610 | loss 0.5690
+step 1620 | loss 0.5155
+step 1630 | loss 0.5345
+step 1640 | loss 0.4859
+step 1650 | loss 0.5451
+step 1660 | loss 0.3763
+step 1670 | loss 0.5005
+step 1680 | loss 0.3335
+step 1690 | loss 0.5414
+step 1700 | loss 0.5336
+step 1710 | loss 0.4835
+step 1720 | loss 0.2721
+step 1730 | loss 0.5423
+step 1740 | loss 0.4365
+step 1750: train loss 0.4667, val loss 1.2241
+step 1750 | loss 0.4934
+step 1760 | loss 0.3821
+step 1770 | loss 0.6245
+step 1780 | loss 0.4036
+step 1790 | loss 0.4650
+step 1800 | loss 0.3450
+step 1810 | loss 0.3365
+step 1820 | loss 0.3446
+step 1830 | loss 0.5919
+step 1840 | loss 0.4290
+step 1850 | loss 0.4454
+step 1860 | loss 0.4052
+step 1870 | loss 0.5795
+step 1880 | loss 0.4263
+step 1890 | loss 0.4897
+step 1900 | loss 0.5712
+step 1910 | loss 0.5085
+step 1920 | loss 0.6400
+step 1930 | loss 0.4098
+step 1940 | loss 0.5770
+step 1950 | loss 0.5197
+step 1960 | loss 0.5007
+step 1970 | loss 0.5543
+step 1980 | loss 0.4357
+step 1990 | loss 0.3280
+step 2000: train loss 0.4260, val loss 1.1914
+step 2000 | loss 0.3210
+step 2010 | loss 0.5514
+step 2020 | loss 0.3229
+step 2030 | loss 0.4480
+step 2040 | loss 0.3619
+step 2050 | loss 0.3244
+step 2060 | loss 0.5073
+step 2070 | loss 0.3737
+step 2080 | loss 0.4804
+step 2090 | loss 0.4178
+step 2100 | loss 0.5331
+step 2110 | loss 0.3935
+step 2120 | loss 0.4285
+step 2130 | loss 0.3878
+step 2140 | loss 0.5670
+step 2150 | loss 0.3231
+step 2160 | loss 0.3841
+step 2170 | loss 0.3487
+step 2180 | loss 0.3820
+step 2190 | loss 0.5736
+step 2200 | loss 0.5601
+step 2210 | loss 0.4010
+step 2220 | loss 0.3772
+step 2230 | loss 0.3421
+step 2240 | loss 0.3318
+step 2250: train loss 0.4273, val loss 1.1761
+step 2250 | loss 0.5995
+step 2260 | loss 0.3832
+step 2270 | loss 0.5381
+step 2280 | loss 0.2929
+step 2290 | loss 0.4797
+step 2300 | loss 0.4558
+step 2310 | loss 0.5156
+step 2320 | loss 0.5459
+step 2330 | loss 0.3715
+step 2340 | loss 0.3715
+step 2350 | loss 0.4412
+step 2360 | loss 0.4035
+step 2370 | loss 0.4474
+step 2380 | loss 0.5277
+step 2390 | loss 0.3691
+step 2400 | loss 0.3689
+step 2410 | loss 0.4583
+step 2420 | loss 0.4659
+step 2430 | loss 0.3335
+step 2440 | loss 0.7093
+step 2450 | loss 0.4540
+step 2460 | loss 0.3159
+step 2470 | loss 0.3760
+step 2480 | loss 0.3807
+step 2490 | loss 0.4535
+step 2500: train loss 0.4099, val loss 1.1258
+step 2500 | loss 0.3486
+step 2510 | loss 0.4610
+step 2520 | loss 0.4486
+step 2530 | loss 0.3794
+step 2540 | loss 0.5027
+step 2550 | loss 0.4515
+step 2560 | loss 0.4788
+step 2570 | loss 0.4276
+step 2580 | loss 0.2251
+step 2590 | loss 0.5183
+step 2600 | loss 0.3581
+step 2610 | loss 0.5106
+step 2620 | loss 0.5342
+step 2630 | loss 0.4315
+step 2640 | loss 0.3111
+step 2650 | loss 0.4883
+step 2660 | loss 0.3608
+step 2670 | loss 0.5235
+step 2680 | loss 0.4770
+step 2690 | loss 0.5602
+step 2700 | loss 0.4213
+step 2710 | loss 0.6043
+step 2720 | loss 0.3869
+step 2730 | loss 0.5521
+step 2740 | loss 0.3476
+step 2750: train loss 0.3925, val loss 1.1112
+step 2750 | loss 0.4065
+step 2760 | loss 0.3986
+step 2770 | loss 0.4302
+step 2780 | loss 0.4658
+step 2790 | loss 0.2136
+step 2800 | loss 0.3784
+step 2810 | loss 0.3333
+step 2820 | loss 0.3770
+step 2830 | loss 0.2905
+step 2840 | loss 0.3579
+step 2850 | loss 0.2215
+step 2860 | loss 0.5321
+step 2870 | loss 0.3981
+step 2880 | loss 0.2964
+step 2890 | loss 0.3105
+step 2900 | loss 0.2325
+step 2910 | loss 0.3485
+step 2920 | loss 0.4030
+step 2930 | loss 0.3719
+step 2940 | loss 0.3314
+step 2950 | loss 0.3801
+step 2960 | loss 0.3288
+step 2970 | loss 0.4278
+step 2980 | loss 0.4455
+step 2990 | loss 0.2808
+Running final evaluation...
+step 3000: train loss 0.3695, val loss 1.0695
+Done.
+--- Training Medium RNN ---
+Training RNN rnn_medium...
+step 0: train loss 4.5933, val loss 4.5936
+step 0 | loss 4.5930
+step 10 | loss 3.1800
+step 20 | loss 3.0339
+step 30 | loss 3.1062
+step 40 | loss 3.0850
+step 50 | loss 3.0504
+step 60 | loss 3.1464
+step 70 | loss 3.0108
+step 80 | loss 3.0909
+step 90 | loss 3.0667
+step 100 | loss 3.1190
+step 110 | loss 3.1100
+step 120 | loss 3.1123
+step 130 | loss 3.1386
+step 140 | loss 3.2259
+step 150 | loss 3.0375
+step 160 | loss 3.0095
+step 170 | loss 2.9235
+step 180 | loss 2.6923
+step 190 | loss 2.5556
+step 200 | loss 2.3805
+step 210 | loss 2.0809
+step 220 | loss 1.8979
+step 230 | loss 1.9142
+step 240 | loss 1.6389
+step 250: train loss 1.7299, val loss 2.8554
+step 250 | loss 1.5201
+step 260 | loss 1.7171
+step 270 | loss 1.5944
+step 280 | loss 1.8543
+step 290 | loss 1.5151
+step 300 | loss 1.4919
+step 310 | loss 1.4709
+step 320 | loss 1.3735
+step 330 | loss 1.3281
+step 340 | loss 1.3398
+step 350 | loss 1.3742
+step 360 | loss 1.3282
+step 370 | loss 1.3074
+step 380 | loss 0.9434
+step 390 | loss 1.5795
+step 400 | loss 1.5426
+step 410 | loss 1.2368
+step 420 | loss 0.7972
+step 430 | loss 0.9887
+step 440 | loss 1.0062
+step 450 | loss 0.9153
+step 460 | loss 1.0739
+step 470 | loss 1.2667
+step 480 | loss 1.0738
+step 490 | loss 1.0130
+step 500: train loss 1.0908, val loss 2.0763
+step 500 | loss 1.2154
+step 510 | loss 0.9427
+step 520 | loss 1.3640
+step 530 | loss 1.0312
+step 540 | loss 1.0133
+step 550 | loss 0.9259
+step 560 | loss 0.9046
+step 570 | loss 1.0734
+step 580 | loss 1.0962
+step 590 | loss 0.9398
+step 600 | loss 1.0586
+step 610 | loss 0.9669
+step 620 | loss 1.1170
+step 630 | loss 0.7003
+step 640 | loss 0.9095
+step 650 | loss 0.8236
+step 660 | loss 0.7517
+step 670 | loss 1.0015
+step 680 | loss 0.8956
+^CTraceback (most recent call last):
+  File "/workspace/src/train_rnn.py", line 122, in <module>
+    X, Y = get_batch('train')
+  File "/workspace/src/train_rnn.py", line 74, in get_batch
+    x, y = loader.get_batch(args.batch_size, args.block_size)
+  File "/workspace/src/train_rnn.py", line 55, in get_batch
+    chunk = self.f.read(block_size + 1)
+  File "/opt/conda/lib/python3.10/codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev rm -rf checkpoints_rnn/*
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev bash src/05_run_rnn.sh
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+================================================================
+           STARTING RNN SCALING STUDY (100M TOKENS)
+================================================================
+[1/4] Training RNN TINY...
+Model Parameters: 1.10M
+Training RNN rnn_tiny...
+Eff. Batch: 256 (Physical 32 * Accum 8)
+step 0: train loss 4.5925, val loss 4.5935
+step 0 | loss 4.5924
+step 10 | loss 3.2379
+step 20 | loss 3.1394
+step 30 | loss 3.1196
+step 40 | loss 3.1373
+step 50 | loss 3.0372
+step 60 | loss 3.0292
+step 70 | loss 3.1514
+step 80 | loss 3.0905
+step 90 | loss 2.9609
+step 100 | loss 3.0833
+step 110 | loss 3.0827
+step 120 | loss 3.0287
+step 130 | loss 2.9410
+step 140 | loss 2.8964
+step 150 | loss 2.8131
+step 160 | loss 2.6397
+step 170 | loss 2.5380
+step 180 | loss 2.2647
+step 190 | loss 2.1486
+step 200 | loss 1.9121
+step 210 | loss 1.8782
+step 220 | loss 1.7587
+step 230 | loss 1.8436
+step 240 | loss 1.4809
+step 250: train loss 1.5894, val loss 2.5344
+step 250 | loss 1.7897
+step 260 | loss 1.5158
+step 270 | loss 1.2532
+step 280 | loss 1.0489
+step 290 | loss 1.4187
+step 300 | loss 1.1954
+step 310 | loss 0.9877
+step 320 | loss 1.1225
+step 330 | loss 1.2011
+step 340 | loss 1.0357
+step 350 | loss 0.9222
+step 360 | loss 1.0507
+step 370 | loss 0.8768
+step 380 | loss 0.7307
+step 390 | loss 1.3464
+step 400 | loss 0.9302
+step 410 | loss 0.9059
+step 420 | loss 0.8872
+step 430 | loss 0.8331
+step 440 | loss 0.7292
+step 450 | loss 0.6514
+step 460 | loss 0.8164
+step 470 | loss 0.9411
+step 480 | loss 0.7710
+step 490 | loss 0.5483
+step 500: train loss 0.6906, val loss 1.5545
+step 500 | loss 0.7525
+step 510 | loss 0.5835
+step 520 | loss 0.5860
+step 530 | loss 0.7260
+step 540 | loss 0.7428
+step 550 | loss 0.6214
+step 560 | loss 0.6734
+step 570 | loss 0.5245
+step 580 | loss 0.4460
+step 590 | loss 0.5776
+step 600 | loss 0.6976
+step 610 | loss 0.4857
+step 620 | loss 0.6271
+step 630 | loss 0.4641
+step 640 | loss 0.3900
+step 650 | loss 0.5808
+step 660 | loss 0.6632
+step 670 | loss 0.5181
+step 680 | loss 0.5716
+step 690 | loss 0.4829
+step 700 | loss 0.5960
+step 710 | loss 0.4272
+step 720 | loss 0.5208
+step 730 | loss 0.5061
+step 740 | loss 0.5884
+step 750: train loss 0.5321, val loss 1.3054
+step 750 | loss 0.4789
+step 760 | loss 0.6439
+step 770 | loss 0.5663
+step 780 | loss 0.3820
+step 790 | loss 0.5333
+step 800 | loss 0.5681
+step 810 | loss 0.4429
+step 820 | loss 0.4364
+step 830 | loss 0.6115
+step 840 | loss 0.6529
+step 850 | loss 0.4885
+step 860 | loss 0.3948
+step 870 | loss 0.5750
+step 880 | loss 0.4985
+step 890 | loss 0.3982
+step 900 | loss 0.2760
+step 910 | loss 0.6283
+step 920 | loss 0.3152
+step 930 | loss 0.5433
+step 940 | loss 0.2647
+step 950 | loss 0.4460
+step 960 | loss 0.4781
+step 970 | loss 0.4821
+step 980 | loss 0.5590
+step 990 | loss 0.4381
+step 1000: train loss 0.4614, val loss 1.2090
+step 1000 | loss 0.5437
+step 1010 | loss 0.5558
+step 1020 | loss 0.4427
+step 1030 | loss 0.4329
+step 1040 | loss 0.4735
+step 1050 | loss 0.4493
+step 1060 | loss 0.4782
+step 1070 | loss 0.2866
+step 1080 | loss 0.4873
+step 1090 | loss 0.5585
+step 1100 | loss 0.4585
+step 1110 | loss 0.3601
+step 1120 | loss 0.3748
+step 1130 | loss 0.3266
+step 1140 | loss 0.5547
+step 1150 | loss 0.3985
+step 1160 | loss 0.2871
+step 1170 | loss 0.2796
+step 1180 | loss 0.4020
+step 1190 | loss 0.4117
+step 1200 | loss 0.4980
+step 1210 | loss 0.3393
+step 1220 | loss 0.4270
+step 1230 | loss 0.3321
+step 1240 | loss 0.3569
+step 1250: train loss 0.4328, val loss 1.1298
+step 1250 | loss 0.4909
+step 1260 | loss 0.5630
+step 1270 | loss 0.2933
+step 1280 | loss 0.4486
+step 1290 | loss 0.5330
+step 1300 | loss 0.4391
+step 1310 | loss 0.3148
+step 1320 | loss 0.3711
+step 1330 | loss 0.4479
+step 1340 | loss 0.3220
+^CTraceback (most recent call last):
+  File "/workspace/src/train_rnn.py", line 132, in <module>
+    loss.backward()
+  File "/opt/conda/lib/python3.10/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/opt/conda/lib/python3.10/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev rm -rf checkpoints_rnn/*
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev python src/07_plot_comparison.py
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+Transformer Alpha: 0.6270
+LSTM (RNN) Alpha: 0.2016
+
+Plot saved to comparison_scaling.png
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev python src/08_check_efficiency.py
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+Model        | Params (M) | Speed (tok/s)   | VRAM (GB) 
+-------------------------------------------------------
+Trans-tiny   | ?          | 3534            | 1.20      
+Trans-small  | ?          | 1293            | 3.93      
+Trans-medium | ?          | 508             | 9.29      
+Trans-large  | ?          | 581             | 6.37      
+Trans-xl     | ?          | 581             | 5.78      
+-------------------------------------------------------
+rnn_large    | ?          | 16              | 0.00      
+rnn_medium   | ?          | 36              | 0.00      
+rnn_small    | ?          | 76              | 0.00      
+rnn_tiny     | ?          | 143             | 0.00      
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev python src/measure_rnn_mem.py
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+Model        | VRAM (GB) 
+-------------------------
+rnn_tiny     | 0.12      
+rnn_small    | 0.32      
+rnn_medium   | 0.80      
+rnn_large    | 1.99      
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev python src/plot_rnn_curves.py
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+Plot saved to rnn_training_curves.png
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev python src/find_xxl.py
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+python: can't open file '/workspace/src/find_xxl.py': [Errno 2] No such file or directory
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev python src/find_xxl.py
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+Starting Stress Test on NVIDIA GeForce RTX 3090...
+Physical Batch: 1 (Mixed Precision ON)
+
+--- Testing XL (Baseline) ---
+number of parameters: 151.29M
+Parameters: 152.34M
+SUCCESS! Peak Memory: 3.06 GB
+
+--- Testing XXL-200M ---
+number of parameters: 315.01M
+Parameters: 316.32M
+SUCCESS! Peak Memory: 6.48 GB
+
+--- Testing XXL-350M ---
+number of parameters: 472.42M
+Parameters: 473.74M
+SUCCESS! Peak Memory: 9.72 GB
+
+--- Testing XXL-500M ---
+number of parameters: 737.99M
+Parameters: 739.63M
+SUCCESS! Peak Memory: 15.10 GB
+
+========================================
+WINNER: XXL-500M (739.6M Params)
+Configuration details:
+n_layer: 24
+n_embd:  1600
+n_head:  25
+========================================
+rohan@jsba:~/music-scaling-laws$ ls -lh data/train.bin
+-rw-r--r-- 1 root root 27G Dec 12 20:32 data/train.bin
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev python src/inspect_data.py
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+Data Size: 26.29 GB
+--- RAW TOKENS (First 20) ---
+[ 1024 16384   256 24064  4352  7168 24576  1024 16384   256 24064  4352
+  7168 24576   256 24064  4352  7168 24576  1024]
+
+--- DECODED TEXT ---
+<UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK>
+
+--- STATS ---
+Unique tokens in sample: 7
+Data looks complex (Good).
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev head -c 500 data/train.txt
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+X: 1
+T: from data/raw_midi/lmd_full/9/9739b15f6e6c17e6ba90af92b7ba004b.mid
+M: 4/4
+L: 1/8
+Q:1/4=140
+K:C % 0 sharps
+V:1
+z8| \
+z8| \
+%%MIDI program 66
+%%MIDI program 66
+%%MIDI program 66
+% You 
+A3/2z/2 
+% tell 
+A3/2z/2 
+% lies 
+A3/2z/2 
+% think
+A
+% ing 
+G| \
+% I 
+B
+% can't 
+G3/2z/2
+% see 
+%  
+G3/2z3z/2|
+% You 
+A3/2z/2 
+% don't 
+A3/2z/2 
+% cry 
+A3/2z/2 
+% 'cos 
+%  
+G
+% you're 
+A| \
+% laugh
+B
+% ing 
+D 
+% at 
+E
+% me 
+%  
+F3/2z/2
+% I'm 
+G2
+% down 
+%  
+C-| \
+C2 z6| \
+z4 z
+% I'm 
+D2
+% down 
+%  
+G,-|
+G,2-rohan@jsba:~/music-scaling-ladocker compose exec dev cat data/vocab.jsonjson
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+["\t", "\n", "\u000b", "\f", " ", "!", "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ":", ";", "<", "=", ">", "?", "@", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "[", "\\", "]", "^", "_", "`", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "{", "|", "}", "~"]rohan@jsba:~/music-scaling-laws
+rohan@jsba:~/music-scaling-laws$ docker compose exec dev python src/inspect_data.py
+WARN[0000] /home/rohan/music-scaling-laws/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+Reading from byte offset: 2580291524
+
+--- DECODED MUSIC SNIPPET ---
+C,,-496-| \
+^C,,-496-| \
+^C,,-496-| \
+^C,,-496-|
+^C,,-496-| \
+^C,,-496-| \
+^C,,-496-| \
+^C,,-496-|
+^C,,-496-| \
+^C,,-496-| \
+^C,,-496-| \
+^C,,-496-|
+^C,,-496-| \
+^C,,-496-| \
+^C,,-496-| \
+^C,,-496-|
+^
+
+-----------------------------
+VERDICT: Data is VALID music.
