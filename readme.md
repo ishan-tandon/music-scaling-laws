@@ -143,8 +143,6 @@ python src/eval_syntax.py --folder output/samples/
 
 ---
 
-## LicenseDistributed under the MIT License. See `LICENSE` for more information.
-
 ## Acknowledgments
 * Based on *Kaplan et al., Scaling Laws for Neural Language Models (2020)*.
 * Built with [nanoGPT](https://github.com/karpathy/nanoGPT) and PyTorch.
