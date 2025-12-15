@@ -1,3 +1,5 @@
+for all files- https://drive.google.com/drive/folders/1vw_zc99A8eHxsavn4pIUWOZXk7e6uwV-?usp=drive_link
+
 # Scaling Laws for Symbolic Music Generation
 **A systematic study of neural scaling laws applied to symbolic music (ABC notation), training Transformer models from 1 Million to 738 Million parameters.**
 
@@ -47,7 +49,8 @@ docker compose exec dev bash
 ---
 
 ## Quick Start
-### 1. Data PreparationPlace your `.abc` files in `data/raw/`. The script will tokenize them into binary files for training.
+### 1. Data Preparation
+Place your `.abc` files in `data/raw/`. The script will tokenize them into binary files for training.
 
 ```bash
 python src/prepare.py --input_path data/raw --output_dir data/processed
@@ -76,7 +79,9 @@ python src/sample.py \
 
 ---
 
-## Reproducing the Scaling Study###Transformer Scaling SuiteTo reproduce the scaling curve, run the following configurations.
+## Reproducing the Scaling Study
+###Transformer Scaling Suite
+To reproduce the scaling curve, run the following configurations.
 
 **Small (6M):**
 
